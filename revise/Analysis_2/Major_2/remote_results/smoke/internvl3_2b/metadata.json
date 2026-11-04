@@ -1,0 +1,17 @@
+{
+  "torch_set_num_threads": 8,
+  "internvl_normalization": "vectorized/batched normalization",
+  "model": "internvl3_2b",
+  "model_path": "/root/vlm_assets/models/InternVL3-2B-Instruct-f6c7b60375759170fd49f5e9e298e2178485c5ba",
+  "phase": "smoke",
+  "hqq_version": "0.2.8.post1",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.51.3",
+  "backend": "HQQ_PYTORCH_FORWARD_INT4_g128_axis1",
+  "seed": 20261102,
+  "calibration_data": false,
+  "target_rule": "Linear input dimension divisible by 128; exclude lm_head",
+  "model_num_image_token": 256,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "quantized_modules": 294
+}

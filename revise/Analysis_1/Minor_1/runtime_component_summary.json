@@ -1,0 +1,62 @@
+[
+  {
+    "model": "internvl3_2b",
+    "scope": "new HQQ runtime manifest, original architecture; eligibility checked against original aggregate counts",
+    "semantic_categories": {
+      "vision_encoder": [
+        96,
+        96,
+        301989888,
+        301989888
+      ],
+      "language_model": [
+        196,
+        196,
+        1310195712,
+        1310195712
+      ],
+      "lm_head": [
+        1,
+        0,
+        232971264,
+        0
+      ],
+      "projector_or_merger": [
+        2,
+        2,
+        8650752,
+        8650752
+      ]
+    }
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "scope": "new HQQ runtime manifest, original architecture; eligibility checked against original aggregate counts",
+    "semantic_categories": {
+      "vision_encoder": [
+        160,
+        128,
+        629964800,
+        489881600
+      ],
+      "projector_or_merger": [
+        2,
+        2,
+        44564480,
+        44564480
+      ],
+      "language_model": [
+        196,
+        196,
+        6525288448,
+        6525288448
+      ],
+      "lm_head": [
+        1,
+        0,
+        544997376,
+        0
+      ]
+    }
+  }
+]

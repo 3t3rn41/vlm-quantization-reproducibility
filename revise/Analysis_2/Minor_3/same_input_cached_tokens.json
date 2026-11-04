@@ -1,0 +1,4002 @@
+[
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 0,
+    "prompt_token_count": 3450,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 1,
+    "prompt_token_count": 1917,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 2,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 3,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 4,
+    "prompt_token_count": 3461,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 5,
+    "prompt_token_count": 3436,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 6,
+    "prompt_token_count": 1915,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 7,
+    "prompt_token_count": 1898,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 8,
+    "prompt_token_count": 1919,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 9,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 10,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 11,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 12,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 13,
+    "prompt_token_count": 355,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 14,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 15,
+    "prompt_token_count": 3451,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 16,
+    "prompt_token_count": 355,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 17,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 18,
+    "prompt_token_count": 1891,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 19,
+    "prompt_token_count": 1940,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 20,
+    "prompt_token_count": 3460,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 21,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 22,
+    "prompt_token_count": 374,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 23,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 24,
+    "prompt_token_count": 872,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 25,
+    "prompt_token_count": 1895,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 26,
+    "prompt_token_count": 367,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 27,
+    "prompt_token_count": 386,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 28,
+    "prompt_token_count": 1934,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 29,
+    "prompt_token_count": 1912,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 30,
+    "prompt_token_count": 3441,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 31,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 32,
+    "prompt_token_count": 1895,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 33,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 34,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 35,
+    "prompt_token_count": 868,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 36,
+    "prompt_token_count": 1946,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 37,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 38,
+    "prompt_token_count": 1914,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 39,
+    "prompt_token_count": 897,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 40,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 41,
+    "prompt_token_count": 363,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 42,
+    "prompt_token_count": 3430,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 43,
+    "prompt_token_count": 3452,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 44,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 45,
+    "prompt_token_count": 3461,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 46,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 47,
+    "prompt_token_count": 1893,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 48,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 49,
+    "prompt_token_count": 2918,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 0,
+    "prompt_token_count": 3450,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 1,
+    "prompt_token_count": 1917,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 2,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 3,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 4,
+    "prompt_token_count": 3461,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 5,
+    "prompt_token_count": 3436,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 6,
+    "prompt_token_count": 1915,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 7,
+    "prompt_token_count": 1898,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 8,
+    "prompt_token_count": 1919,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 9,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 10,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 11,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 12,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 13,
+    "prompt_token_count": 355,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 14,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 15,
+    "prompt_token_count": 3451,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 16,
+    "prompt_token_count": 355,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 17,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 18,
+    "prompt_token_count": 1891,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 19,
+    "prompt_token_count": 1940,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 20,
+    "prompt_token_count": 3460,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 21,
+    "prompt_token_count": 3429,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 22,
+    "prompt_token_count": 374,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 23,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 24,
+    "prompt_token_count": 872,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 25,
+    "prompt_token_count": 1895,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 26,
+    "prompt_token_count": 367,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 27,
+    "prompt_token_count": 386,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 28,
+    "prompt_token_count": 1934,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 29,
+    "prompt_token_count": 1912,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 30,
+    "prompt_token_count": 3441,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 31,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 32,
+    "prompt_token_count": 1895,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 33,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 34,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 35,
+    "prompt_token_count": 868,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 36,
+    "prompt_token_count": 1946,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 37,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 38,
+    "prompt_token_count": 1914,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 39,
+    "prompt_token_count": 897,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 40,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 41,
+    "prompt_token_count": 363,
+    "dynamic_block_count": 1,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 42,
+    "prompt_token_count": 3430,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 43,
+    "prompt_token_count": 3452,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 44,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 45,
+    "prompt_token_count": 3461,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 46,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 47,
+    "prompt_token_count": 1893,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 48,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 49,
+    "prompt_token_count": 2918,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 0,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 1,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 2,
+    "prompt_token_count": 1914,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 3,
+    "prompt_token_count": 1902,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 4,
+    "prompt_token_count": 1915,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 5,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 6,
+    "prompt_token_count": 1916,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 7,
+    "prompt_token_count": 1909,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 8,
+    "prompt_token_count": 1910,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 9,
+    "prompt_token_count": 1904,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 10,
+    "prompt_token_count": 1908,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 11,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 12,
+    "prompt_token_count": 3438,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 13,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 14,
+    "prompt_token_count": 3455,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 15,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 16,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 17,
+    "prompt_token_count": 879,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 18,
+    "prompt_token_count": 1896,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 19,
+    "prompt_token_count": 1896,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 20,
+    "prompt_token_count": 1908,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 21,
+    "prompt_token_count": 1131,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 22,
+    "prompt_token_count": 1133,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 23,
+    "prompt_token_count": 1132,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 24,
+    "prompt_token_count": 1132,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 25,
+    "prompt_token_count": 1140,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 26,
+    "prompt_token_count": 1133,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 27,
+    "prompt_token_count": 2914,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 28,
+    "prompt_token_count": 2919,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 29,
+    "prompt_token_count": 2913,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 30,
+    "prompt_token_count": 2920,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 31,
+    "prompt_token_count": 2930,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 32,
+    "prompt_token_count": 2928,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 33,
+    "prompt_token_count": 2924,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 34,
+    "prompt_token_count": 2923,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 35,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 36,
+    "prompt_token_count": 3436,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 37,
+    "prompt_token_count": 3447,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 38,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 39,
+    "prompt_token_count": 3430,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 40,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 41,
+    "prompt_token_count": 3446,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 42,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 43,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 44,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 45,
+    "prompt_token_count": 876,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 46,
+    "prompt_token_count": 868,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 47,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 48,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 49,
+    "prompt_token_count": 1905,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 0,
+    "prompt_token_count": 3428,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 1,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 2,
+    "prompt_token_count": 1914,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 3,
+    "prompt_token_count": 1902,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 4,
+    "prompt_token_count": 1915,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 5,
+    "prompt_token_count": 1900,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 6,
+    "prompt_token_count": 1916,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 7,
+    "prompt_token_count": 1909,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 8,
+    "prompt_token_count": 1910,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 9,
+    "prompt_token_count": 1904,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 10,
+    "prompt_token_count": 1908,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 11,
+    "prompt_token_count": 3431,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 12,
+    "prompt_token_count": 3438,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 13,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 14,
+    "prompt_token_count": 3455,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 15,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 16,
+    "prompt_token_count": 3427,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 17,
+    "prompt_token_count": 879,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 18,
+    "prompt_token_count": 1896,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 19,
+    "prompt_token_count": 1896,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 20,
+    "prompt_token_count": 1908,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 21,
+    "prompt_token_count": 1131,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 22,
+    "prompt_token_count": 1133,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 23,
+    "prompt_token_count": 1132,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 24,
+    "prompt_token_count": 1132,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 25,
+    "prompt_token_count": 1140,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 26,
+    "prompt_token_count": 1133,
+    "dynamic_block_count": 4,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 27,
+    "prompt_token_count": 2914,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 28,
+    "prompt_token_count": 2919,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 29,
+    "prompt_token_count": 2913,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 30,
+    "prompt_token_count": 2920,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 31,
+    "prompt_token_count": 2930,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 32,
+    "prompt_token_count": 2928,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 33,
+    "prompt_token_count": 2924,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 34,
+    "prompt_token_count": 2923,
+    "dynamic_block_count": 11,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 35,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 36,
+    "prompt_token_count": 3436,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 37,
+    "prompt_token_count": 3447,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 38,
+    "prompt_token_count": 3433,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 39,
+    "prompt_token_count": 3430,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 40,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 41,
+    "prompt_token_count": 3446,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 42,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 43,
+    "prompt_token_count": 3432,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 44,
+    "prompt_token_count": 3434,
+    "dynamic_block_count": 13,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 45,
+    "prompt_token_count": 876,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 46,
+    "prompt_token_count": 868,
+    "dynamic_block_count": 3,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 47,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 48,
+    "prompt_token_count": 1897,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "internvl3_2b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 49,
+    "prompt_token_count": 1905,
+    "dynamic_block_count": 7,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 0,
+    "prompt_token_count": 347,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 1,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 2,
+    "prompt_token_count": 294,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 3,
+    "prompt_token_count": 313,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 4,
+    "prompt_token_count": 376,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 5,
+    "prompt_token_count": 333,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 6,
+    "prompt_token_count": 312,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 7,
+    "prompt_token_count": 295,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 8,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 9,
+    "prompt_token_count": 252,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 10,
+    "prompt_token_count": 308,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 11,
+    "prompt_token_count": 312,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 12,
+    "prompt_token_count": 331,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 13,
+    "prompt_token_count": 396,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 14,
+    "prompt_token_count": 326,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 15,
+    "prompt_token_count": 348,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 16,
+    "prompt_token_count": 136,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 17,
+    "prompt_token_count": 330,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 18,
+    "prompt_token_count": 142,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 19,
+    "prompt_token_count": 1009,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 20,
+    "prompt_token_count": 339,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 21,
+    "prompt_token_count": 308,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 22,
+    "prompt_token_count": 415,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 23,
+    "prompt_token_count": 310,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 24,
+    "prompt_token_count": 257,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 25,
+    "prompt_token_count": 292,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 26,
+    "prompt_token_count": 408,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 27,
+    "prompt_token_count": 391,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 28,
+    "prompt_token_count": 313,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 29,
+    "prompt_token_count": 309,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 30,
+    "prompt_token_count": 338,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 31,
+    "prompt_token_count": 329,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 32,
+    "prompt_token_count": 292,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 33,
+    "prompt_token_count": 297,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 34,
+    "prompt_token_count": 325,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 35,
+    "prompt_token_count": 253,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 36,
+    "prompt_token_count": 343,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 37,
+    "prompt_token_count": 325,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 38,
+    "prompt_token_count": 311,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 39,
+    "prompt_token_count": 282,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 40,
+    "prompt_token_count": 297,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 41,
+    "prompt_token_count": 368,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 42,
+    "prompt_token_count": 327,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 43,
+    "prompt_token_count": 349,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 44,
+    "prompt_token_count": 311,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 45,
+    "prompt_token_count": 358,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 46,
+    "prompt_token_count": 328,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 47,
+    "prompt_token_count": 290,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 48,
+    "prompt_token_count": 349,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "bf16",
+    "source_row": 49,
+    "prompt_token_count": 201,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 0,
+    "prompt_token_count": 347,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 1,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 2,
+    "prompt_token_count": 294,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 3,
+    "prompt_token_count": 313,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 4,
+    "prompt_token_count": 376,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 5,
+    "prompt_token_count": 333,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 6,
+    "prompt_token_count": 312,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 7,
+    "prompt_token_count": 295,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 8,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 9,
+    "prompt_token_count": 252,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 10,
+    "prompt_token_count": 308,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 11,
+    "prompt_token_count": 312,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 12,
+    "prompt_token_count": 331,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 13,
+    "prompt_token_count": 396,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 14,
+    "prompt_token_count": 326,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 15,
+    "prompt_token_count": 348,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 16,
+    "prompt_token_count": 136,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 17,
+    "prompt_token_count": 330,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 18,
+    "prompt_token_count": 142,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 19,
+    "prompt_token_count": 1009,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 20,
+    "prompt_token_count": 339,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 21,
+    "prompt_token_count": 308,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 22,
+    "prompt_token_count": 415,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 23,
+    "prompt_token_count": 310,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 24,
+    "prompt_token_count": 257,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 25,
+    "prompt_token_count": 292,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 26,
+    "prompt_token_count": 408,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 27,
+    "prompt_token_count": 391,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 28,
+    "prompt_token_count": 313,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 29,
+    "prompt_token_count": 309,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 30,
+    "prompt_token_count": 338,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 31,
+    "prompt_token_count": 329,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 32,
+    "prompt_token_count": 292,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 33,
+    "prompt_token_count": 297,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 34,
+    "prompt_token_count": 325,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 35,
+    "prompt_token_count": 253,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 36,
+    "prompt_token_count": 343,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 37,
+    "prompt_token_count": 325,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 38,
+    "prompt_token_count": 311,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 39,
+    "prompt_token_count": 282,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 40,
+    "prompt_token_count": 297,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 41,
+    "prompt_token_count": 368,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 42,
+    "prompt_token_count": 327,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 43,
+    "prompt_token_count": 349,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 44,
+    "prompt_token_count": 311,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 45,
+    "prompt_token_count": 358,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 46,
+    "prompt_token_count": 328,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 47,
+    "prompt_token_count": 290,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 48,
+    "prompt_token_count": 349,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "source_row": 49,
+    "prompt_token_count": 201,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 0,
+    "prompt_token_count": 409,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 1,
+    "prompt_token_count": 408,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 2,
+    "prompt_token_count": 389,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 3,
+    "prompt_token_count": 377,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 4,
+    "prompt_token_count": 390,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 5,
+    "prompt_token_count": 375,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 6,
+    "prompt_token_count": 391,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 7,
+    "prompt_token_count": 384,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 8,
+    "prompt_token_count": 385,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 9,
+    "prompt_token_count": 379,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 10,
+    "prompt_token_count": 383,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 11,
+    "prompt_token_count": 156,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 12,
+    "prompt_token_count": 163,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 13,
+    "prompt_token_count": 603,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 14,
+    "prompt_token_count": 625,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 15,
+    "prompt_token_count": 597,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 16,
+    "prompt_token_count": 597,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 17,
+    "prompt_token_count": 274,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 18,
+    "prompt_token_count": 1324,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 19,
+    "prompt_token_count": 1324,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 20,
+    "prompt_token_count": 1336,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 21,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 22,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 23,
+    "prompt_token_count": 315,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 24,
+    "prompt_token_count": 315,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 25,
+    "prompt_token_count": 323,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 26,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 27,
+    "prompt_token_count": 251,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 28,
+    "prompt_token_count": 256,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 29,
+    "prompt_token_count": 250,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 30,
+    "prompt_token_count": 257,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 31,
+    "prompt_token_count": 267,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 32,
+    "prompt_token_count": 265,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 33,
+    "prompt_token_count": 261,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 34,
+    "prompt_token_count": 260,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 35,
+    "prompt_token_count": 210,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 36,
+    "prompt_token_count": 213,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 37,
+    "prompt_token_count": 224,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 38,
+    "prompt_token_count": 210,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 39,
+    "prompt_token_count": 207,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 40,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 41,
+    "prompt_token_count": 469,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 42,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 43,
+    "prompt_token_count": 455,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 44,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 45,
+    "prompt_token_count": 193,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 46,
+    "prompt_token_count": 185,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 47,
+    "prompt_token_count": 306,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 48,
+    "prompt_token_count": 306,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "bf16",
+    "source_row": 49,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 0,
+    "prompt_token_count": 409,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 1,
+    "prompt_token_count": 408,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 2,
+    "prompt_token_count": 389,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 3,
+    "prompt_token_count": 377,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 4,
+    "prompt_token_count": 390,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 5,
+    "prompt_token_count": 375,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 6,
+    "prompt_token_count": 391,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 7,
+    "prompt_token_count": 384,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 8,
+    "prompt_token_count": 385,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 9,
+    "prompt_token_count": 379,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 10,
+    "prompt_token_count": 383,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 11,
+    "prompt_token_count": 156,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 12,
+    "prompt_token_count": 163,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 13,
+    "prompt_token_count": 603,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 14,
+    "prompt_token_count": 625,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 15,
+    "prompt_token_count": 597,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 16,
+    "prompt_token_count": 597,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 17,
+    "prompt_token_count": 274,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 18,
+    "prompt_token_count": 1324,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 19,
+    "prompt_token_count": 1324,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 20,
+    "prompt_token_count": 1336,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 21,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 22,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 23,
+    "prompt_token_count": 315,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 24,
+    "prompt_token_count": 315,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 25,
+    "prompt_token_count": 323,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 26,
+    "prompt_token_count": 316,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 27,
+    "prompt_token_count": 251,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 28,
+    "prompt_token_count": 256,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 29,
+    "prompt_token_count": 250,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 30,
+    "prompt_token_count": 257,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 31,
+    "prompt_token_count": 267,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 32,
+    "prompt_token_count": 265,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 33,
+    "prompt_token_count": 261,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 34,
+    "prompt_token_count": 260,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 35,
+    "prompt_token_count": 210,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 36,
+    "prompt_token_count": 213,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 37,
+    "prompt_token_count": 224,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 38,
+    "prompt_token_count": 210,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 39,
+    "prompt_token_count": 207,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 40,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 41,
+    "prompt_token_count": 469,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 42,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 43,
+    "prompt_token_count": 455,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 44,
+    "prompt_token_count": 457,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 45,
+    "prompt_token_count": 193,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 46,
+    "prompt_token_count": 185,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 47,
+    "prompt_token_count": 306,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 48,
+    "prompt_token_count": 306,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "dataset": "ai2d",
+    "backend": "int4_g128",
+    "source_row": 49,
+    "prompt_token_count": 314,
+    "dynamic_block_count": null,
+    "image_grid_thw": null,
+    "evidence_scope": "full-inference cache for same smoke IDs; original timing token split unavailable"
+  }
+]

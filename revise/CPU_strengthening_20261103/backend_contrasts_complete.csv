@@ -1,0 +1,193 @@
+﻿cell,signal,q,policy,delta_direction,delta_total_errors_point,delta_total_errors_ci95_low,delta_total_errors_ci95_high,delta_total_errors_invalid_replicates,delta_captured_errors_point,delta_captured_errors_ci95_low,delta_captured_errors_ci95_high,delta_captured_errors_invalid_replicates,delta_unreviewed_errors_point,delta_unreviewed_errors_ci95_low,delta_unreviewed_errors_ci95_high,delta_unreviewed_errors_invalid_replicates,delta_unreviewed_per1000_point,delta_unreviewed_per1000_ci95_low,delta_unreviewed_per1000_ci95_high,delta_unreviewed_per1000_invalid_replicates,pointwise_interval_direction
+internvl3_2b__mmstar,max,0.05,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,3.0,-8.0,13.0,0,8.0,-29.0,45.0,0,5.333333333333333,-19.15646275784981,29.742725741982177,0,direction uncertain
+internvl3_2b__mmstar,max,0.05,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-3.0,-15.0,8.0,0,14.0,-22.0,52.0,0,9.333333333333334,-14.637635514589993,34.34667055488278,0,direction uncertain
+internvl3_2b__mmstar,max,0.05,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,0.0,-9.0,10.0,0,11.0,-26.0,48.0,0,7.333333333333333,-17.368069472277888,32.2373726655348,0,direction uncertain
+internvl3_2b__mmstar,max,0.05,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-7.0,-17.0,5.0,0,18.0,-19.0,55.0,0,12.0,-12.753398726553089,36.54545795928464,0,direction uncertain
+internvl3_2b__mmstar,max,0.1,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,7.0,-8.0,23.0,0,4.0,-31.0,39.0,0,2.6666666666666665,-20.69529718554505,25.896844515625197,0,direction uncertain
+internvl3_2b__mmstar,max,0.1,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-4.0,-22.0,9.0,0,15.0,-18.0,52.0,0,10.0,-11.828106312177017,34.73671942816112,0,direction uncertain
+internvl3_2b__mmstar,max,0.1,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,10.0,-4.0,26.0,0,1.0,-36.0,38.0,0,0.6666666666666666,-23.873075074937645,25.267219903043344,0,direction uncertain
+internvl3_2b__mmstar,max,0.1,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,3.0,-12.0,17.0,0,8.0,-27.0,45.0,0,5.333333333333333,-17.928584664663603,30.100838135149285,0,direction uncertain
+internvl3_2b__mmstar,max,0.2,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,18.0,-5.0,39.0,0,-7.0,-38.0,26.0,0,-4.666666666666667,-25.215660252156603,17.485457579606866,0,direction uncertain
+internvl3_2b__mmstar,max,0.2,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-12.0,-33.02499999999998,10.0,0,23.0,-9.0,55.0,0,15.333333333333334,-5.972130059721301,37.062619389923164,0,direction uncertain
+internvl3_2b__mmstar,max,0.2,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,22.0,1.0,43.0,0,-11.0,-43.0,22.0,0,-7.333333333333333,-28.40252441061556,14.502546339376249,0,direction uncertain
+internvl3_2b__mmstar,max,0.2,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-6.0,-29.0,15.0,0,17.0,-16.0,52.0,0,11.333333333333334,-10.70269955444247,34.32456662718484,0,direction uncertain
+internvl3_2b__mmstar,max,0.3,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,9.0,-17.0,34.0,0,2.0,-27.0,31.0,0,1.3333333333333333,-17.75264945996653,20.74966532797858,0,direction uncertain
+internvl3_2b__mmstar,max,0.3,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-8.0,-35.0,17.0,0,19.0,-8.0,49.0,0,12.666666666666666,-5.34045393858478,32.36730310783726,0,direction uncertain
+internvl3_2b__mmstar,max,0.3,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,14.0,-9.0,41.0,0,-3.0,-33.0,24.0,0,-2.0,-22.015043852109685,16.010673782521682,0,direction uncertain
+internvl3_2b__mmstar,max,0.3,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-4.0,-33.02499999999998,23.0,0,15.0,-15.0,47.0,0,10.0,-10.026905639117915,31.52246814218645,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.05,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,5.0,-7.0,15.0,0,6.0,-30.0,44.0,0,4.0,-19.868538432129093,29.178687548655937,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.05,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-5.0,-14.0,10.0,0,16.0,-23.0,50.0,0,10.666666666666666,-15.272498047676404,33.267907888420346,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.05,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,8.0,-1.0,17.0,0,3.0,-33.0,41.0,0,2.0,-22.117962466487935,27.2063702720637,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.05,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,1.0,-10.0,13.0,0,10.0,-27.0,47.0,0,6.666666666666667,-18.024333045262757,31.45917001338688,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.1,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,12.0,-3.0,28.0,0,-1.0,-36.0,33.0,0,-0.6666666666666666,-24.242832639059053,22.04482543682682,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.1,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,4.0,-13.0,18.0,0,7.0,-27.0,43.0,0,4.666666666666667,-17.940497543648828,28.91803525289349,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.1,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,22.0,7.0,35.0,0,-11.0,-45.0,26.0,0,-7.333333333333333,-30.16136362410387,17.34489659773182,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.1,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,4.0,-13.0,18.0,0,7.0,-27.0,45.0,0,4.666666666666667,-18.134502524351987,29.860650298606505,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.2,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,8.0,-15.0,28.0,0,3.0,-29.0,36.024999999999636,0,2.0,-19.23108825481088,24.32646798772559,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.2,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-2.0,-22.0,20.0,0,13.0,-20.0,45.0,0,8.666666666666666,-13.254030195484916,29.743711235517324,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.2,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,20.0,-1.0,41.0,0,-9.0,-41.0,24.0,0,-6.0,-27.261091734969778,15.84184574335901,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.2,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,4.0,-18.0,25.0,0,7.0,-26.0,40.0,0,4.666666666666667,-17.438253683172864,26.82763246143528,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.3,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-2.0,-26.0,25.0,0,13.0,-18.0,41.0,0,8.666666666666666,-12.12162079323239,27.461486939048896,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.3,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-1.0,-26.0,25.0,0,12.0,-18.0,41.0,0,8.0,-11.944260119442601,27.226248136614633,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.3,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,13.0,-13.0,38.0,0,-2.0,-32.0,28.0,0,-1.3333333333333333,-21.23459270636983,18.641810918774965,0,direction uncertain
+internvl3_2b__mmstar,entropy,0.3,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,4.0,-22.0,33.0,0,7.0,-26.0,37.0,0,4.666666666666667,-17.264276228419654,24.716511900806957,0,direction uncertain
+internvl3_2b__mmstar,margin,0.05,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,3.0,-7.0,13.0,0,8.0,-28.0,45.0,0,5.333333333333333,-18.729724220274324,30.060120240480963,0,direction uncertain
+internvl3_2b__mmstar,margin,0.05,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-2.0,-13.0,9.0,0,13.0,-23.0,51.0,0,8.666666666666666,-15.364318208609733,33.731835179399766,0,direction uncertain
+internvl3_2b__mmstar,margin,0.05,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,0.0,-11.0,10.0,0,11.0,-25.0,49.0,0,7.333333333333333,-16.600541356170005,32.77591973244147,0,direction uncertain
+internvl3_2b__mmstar,margin,0.05,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-8.0,-19.0,4.0,0,19.0,-18.0,56.0,0,12.666666666666666,-11.96808510638298,37.50020931011386,0,direction uncertain
+internvl3_2b__mmstar,margin,0.1,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,12.0,-4.0,26.0,0,-1.0,-35.0,35.0,0,-0.6666666666666666,-23.411762994005006,23.36487616978505,0,direction uncertain
+internvl3_2b__mmstar,margin,0.1,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-13.0,-29.0,2.0,0,24.0,-10.0,60.0,0,16.0,-6.657789613848203,39.91950741366044,0,direction uncertain
+internvl3_2b__mmstar,margin,0.1,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,2.0,-14.0,16.0,0,9.0,-25.0,45.024999999999636,0,6.0,-16.711229946524064,30.34300791556728,0,direction uncertain
+internvl3_2b__mmstar,margin,0.1,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-12.0,-29.0,3.0,0,23.0,-12.0,60.0,0,15.333333333333334,-7.97885611755213,40.053404539385845,0,direction uncertain
+internvl3_2b__mmstar,margin,0.2,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,21.0,-1.0,42.0,0,-10.0,-42.0,22.0,0,-6.666666666666667,-27.870866190336567,14.716706033301243,0,direction uncertain
+internvl3_2b__mmstar,margin,0.2,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-18.0,-40.0,4.024999999999636,0,29.0,-2.0,61.0,0,19.333333333333332,-1.340505049960172,40.42430055783895,0,direction uncertain
+internvl3_2b__mmstar,margin,0.2,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,11.0,-10.0,34.0,0,0.0,-33.0,32.0,0,0.0,-21.94185432326836,21.46282665773012,0,direction uncertain
+internvl3_2b__mmstar,margin,0.2,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-16.0,-38.0,8.0,0,27.0,-7.0,60.0,0,18.0,-4.666744496330887,39.624718746018935,0,direction uncertain
+internvl3_2b__mmstar,margin,0.3,BF16 risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,17.0,-11.0,41.0,0,-6.0,-33.0,25.0,0,-4.0,-21.797647284073552,16.622340425531913,0,direction uncertain
+internvl3_2b__mmstar,margin,0.3,TorchAO risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,-11.0,-39.0,14.0,0,22.0,-4.0,51.0,0,14.666666666666666,-2.6455026455026456,34.21096785588131,0,direction uncertain
+internvl3_2b__mmstar,margin,0.3,HQQ risk,HQQ minus TorchAO,11.0,-26.0,49.0,0,25.0,-1.0,50.0,0,-14.0,-42.0,15.0,0,-9.333333333333334,-27.724607007358575,10.107816711590296,0,direction uncertain
+internvl3_2b__mmstar,margin,0.3,native risk per backend,HQQ minus TorchAO,11.0,-26.0,49.0,0,-2.0,-31.0,25.0,0,13.0,-17.0,45.0,0,8.666666666666666,-11.206698125316816,30.0,0,direction uncertain
+internvl3_2b__ai2d,max,0.05,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,10.0,-3.0,24.0,0,29.0,-12.0,69.0,0,9.39119170984456,-3.9907880281119463,22.527118301430892,0,direction uncertain
+internvl3_2b__ai2d,max,0.05,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-2.0,-17.0,14.0,0,41.0,1.0,80.0,0,13.27720207253886,0.33001669732190614,26.089801361575148,0,TorchAO lower exposure
+internvl3_2b__ai2d,max,0.05,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,13.0,-2.0,27.0,0,26.0,-15.0,68.0,0,8.419689119170984,-4.983133150401354,21.82599369703549,0,direction uncertain
+internvl3_2b__ai2d,max,0.05,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,0.0,-14.0,17.0,0,39.0,-4.024999999999977,79.0,0,12.629533678756477,-1.3622760948455372,25.806756317542856,0,direction uncertain
+internvl3_2b__ai2d,max,0.1,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,17.0,-4.0,35.0,0,22.0,-15.0,62.0,0,7.124352331606218,-4.868866032038951,20.053034201648405,0,direction uncertain
+internvl3_2b__ai2d,max,0.1,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,1.0,-20.0,24.0,0,38.0,0.0,73.0,0,12.305699481865284,0.0,23.89541756006377,0,direction uncertain
+internvl3_2b__ai2d,max,0.1,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,28.0,10.0,49.0,0,11.0,-29.0,47.0,0,3.562176165803109,-9.573929321112555,15.32835166055759,0,direction uncertain
+internvl3_2b__ai2d,max,0.1,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,11.0,-8.0,35.0,0,28.0,-14.0,65.0,0,9.067357512953368,-4.581547952370943,21.27712677452472,0,direction uncertain
+internvl3_2b__ai2d,max,0.2,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,49.0,19.0,74.0,0,-10.0,-43.0,27.0,0,-3.238341968911917,-13.88003712123234,8.786231003404561,0,direction uncertain
+internvl3_2b__ai2d,max,0.2,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-9.0,-42.0,20.0,0,48.0,17.0,82.0,0,15.544041450777202,5.671032850572318,26.49048418140136,0,TorchAO lower exposure
+internvl3_2b__ai2d,max,0.2,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,60.0,32.0,86.0,0,-21.0,-54.0,13.0,0,-6.800518134715026,-17.25288515370521,4.325381660196708,0,direction uncertain
+internvl3_2b__ai2d,max,0.2,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,13.0,-18.0,44.0,0,26.0,-11.0,62.0,0,8.419689119170984,-3.554205756896217,19.894064161948876,0,direction uncertain
+internvl3_2b__ai2d,max,0.3,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,47.0,16.0,84.0,0,-8.0,-39.0,16.024999999999636,0,-2.5906735751295336,-12.491791988981246,5.358001787428231,0,direction uncertain
+internvl3_2b__ai2d,max,0.3,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,1.0,-36.0,34.0,0,38.0,12.0,67.0,0,12.305699481865284,4.033410174978491,21.59901961025268,0,TorchAO lower exposure
+internvl3_2b__ai2d,max,0.3,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,77.0,46.0,111.0,0,-38.0,-68.0,-12.0,0,-12.305699481865284,-21.895484471160728,-3.8561657120690085,0,HQQ lower exposure
+internvl3_2b__ai2d,max,0.3,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,36.0,0.0,71.0,0,3.0,-28.0,35.0,0,0.9715025906735751,-9.073370158570214,11.498217897313214,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.05,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,9.0,-2.0,21.0,0,30.0,-11.0,71.0,0,9.715025906735752,-3.699658108181927,22.81669696791976,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.05,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,2.0,-13.0,15.0,0,37.0,-3.0,79.0,0,11.981865284974093,-0.9576638391989758,25.633419404255097,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.05,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,15.0,0.0,28.0,0,24.0,-16.0,65.0,0,7.772020725388601,-5.308741611483288,21.339941231386703,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.05,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,0.0,-14.0,15.0,0,39.0,-3.0249999999999773,80.0,0,12.629533678756477,-1.0155241341819703,26.012786654220285,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.1,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,21.0,2.0,38.0,0,18.0,-21.0,58.0,0,5.829015544041451,-6.641445025121826,18.75019218942189,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.1,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,2.0,-20.0,24.0,0,37.0,-2.0,75.0,0,11.981865284974093,-0.6329616234679526,24.30093209054594,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.1,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,30.0,14.0,50.0,0,9.0,-32.0,46.0,0,2.9145077720207255,-10.359615803582424,15.126448055562912,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.1,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,13.0,-5.0,35.0,0,26.0,-17.0,64.0,0,8.419689119170984,-5.5310439374262375,20.712185595662167,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.2,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,40.0,13.0,66.0,0,-1.0,-36.0,35.0,0,-0.3238341968911917,-11.646373616254595,11.394388544787223,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.2,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,12.0,-15.0,41.0,0,27.0,-8.0,60.0,0,8.743523316062177,-2.540489044140997,19.536213521231062,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.2,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,56.0,29.0,81.0,0,-17.0,-50.0,19.0,0,-5.505181347150259,-16.139878950907868,6.099771525316239,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.2,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,19.0,-8.0,49.0,0,20.0,-18.0,55.0,0,6.476683937823834,-5.812172860827541,17.78801172475398,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.3,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,43.0,13.0,79.0,0,-4.0,-35.0,22.0,0,-1.2953367875647668,-11.175729693161342,7.129661724372624,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.3,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-1.0,-35.0,34.0,0,40.0,11.0,67.0,0,12.953367875647668,3.4962541420544593,21.658267514522898,0,TorchAO lower exposure
+internvl3_2b__ai2d,entropy,0.3,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,62.0,31.0,96.0,0,-23.0,-53.0,4.0,0,-7.448186528497409,-17.01215419196344,1.357370190842661,0,direction uncertain
+internvl3_2b__ai2d,entropy,0.3,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,41.0,5.0,76.0,0,-2.0,-35.0,31.0,0,-0.6476683937823834,-11.190478128179043,9.9836208858648,0,direction uncertain
+internvl3_2b__ai2d,margin,0.05,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,13.0,-2.0,27.0,0,26.0,-15.0,67.0,0,8.419689119170984,-4.725158166639629,21.68875706220104,0,direction uncertain
+internvl3_2b__ai2d,margin,0.05,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,1.0,-15.0,17.0,0,38.0,-1.0,77.0,0,12.305699481865284,-0.3283237315395091,24.81309342310998,0,direction uncertain
+internvl3_2b__ai2d,margin,0.05,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,21.0,8.975000000000023,36.0,0,18.0,-25.0,57.0,0,5.829015544041451,-8.056979281934428,18.71078481635665,0,direction uncertain
+internvl3_2b__ai2d,margin,0.05,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,14.0,-3.0,30.0,0,25.0,-16.0,66.0,0,8.095854922279793,-5.134994505809647,21.34881503007288,0,direction uncertain
+internvl3_2b__ai2d,margin,0.1,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,30.0,8.0,48.0,0,9.0,-28.0,49.0,0,2.9145077720207255,-8.988836209073918,15.92987735390088,0,direction uncertain
+internvl3_2b__ai2d,margin,0.1,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-3.0,-27.0,19.0,0,42.0,7.0,79.0,0,13.601036269430052,2.206688101733198,25.55848551633157,0,TorchAO lower exposure
+internvl3_2b__ai2d,margin,0.1,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,33.0,14.0,54.0,0,6.0,-34.0,43.0,0,1.9430051813471503,-11.093685631810658,14.028760331908789,0,direction uncertain
+internvl3_2b__ai2d,margin,0.1,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,14.0,-10.0,38.0,0,25.0,-16.0,65.0,0,8.095854922279793,-5.296293041263353,20.985750608440497,0,direction uncertain
+internvl3_2b__ai2d,margin,0.2,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,40.0,12.0,66.0,0,-1.0,-34.0,34.0,0,-0.3238341968911917,-10.841123393411454,11.046133853151398,0,direction uncertain
+internvl3_2b__ai2d,margin,0.2,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-7.0,-39.0,23.0,0,46.0,15.0,78.0,0,14.896373056994818,4.900359359686377,25.084782966872353,0,TorchAO lower exposure
+internvl3_2b__ai2d,margin,0.2,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,56.0,31.0,85.0,0,-17.0,-52.0,15.0,0,-5.505181347150259,-16.92220842504956,4.845078722396407,0,direction uncertain
+internvl3_2b__ai2d,margin,0.2,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,20.0,-13.0,50.0,0,19.0,-15.0,57.0,0,6.152849740932642,-4.961018536114146,18.41529804528415,0,direction uncertain
+internvl3_2b__ai2d,margin,0.3,BF16 risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,48.0,16.0,83.0,0,-9.0,-38.0,18.0,0,-2.9145077720207255,-12.219042906272064,5.7396511294285615,0,direction uncertain
+internvl3_2b__ai2d,margin,0.3,TorchAO risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,-4.0,-38.0,32.0,0,43.0,15.0,69.02499999999964,0,13.924870466321243,4.890678133375984,22.546894750278643,0,TorchAO lower exposure
+internvl3_2b__ai2d,margin,0.3,HQQ risk,HQQ minus TorchAO,39.0,-4.0,82.0,0,78.0,45.0,110.0,0,-39.0,-67.0,-10.0,0,-12.629533678756477,-21.589796214194298,-3.2593993264506165,0,HQQ lower exposure
+internvl3_2b__ai2d,margin,0.3,native risk per backend,HQQ minus TorchAO,39.0,-4.0,82.0,0,22.0,-11.0,61.0,0,17.0,-18.0,45.0,0,5.505181347150259,-5.8557535195895385,14.696792515870364,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.05,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,0.0,-9.0,8.0,0,-2.0,-25.0,21.0,0,-1.3333333333333333,-16.556565683163708,14.018691588785046,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.05,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-4.0,-15.0,5.0,0,2.0,-20.0,25.0,0,1.3333333333333333,-13.395847287340924,16.756313124502146,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.05,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-2.0,-11.0,8.0,0,0.0,-23.0,22.0,0,0.0,-15.37433155080214,14.550746347103956,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.05,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-2.0,-13.0,9.0,0,0.0,-23.0,23.0,0,0.0,-15.479361427376231,15.323117921385743,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.1,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-6.0,-18.0,5.0,0,4.0,-17.0,25.0,0,2.6666666666666665,-11.348654139609883,16.76755161843544,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.1,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-11.0,-25.0,0.0,0,9.0,-11.0,31.0,0,6.0,-7.34324679621816,20.625415834996673,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.1,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,0.0,-13.0,12.0,0,-2.0,-23.0,19.0,0,-1.3333333333333333,-15.302982583434993,12.70053475935829,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.1,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-1.0,-18.0,10.0,0,-1.0,-20.0,25.0,0,-0.6666666666666666,-13.440860215053764,16.448997948967506,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.2,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,2.0,-15.0,20.0,0,-4.0,-21.0,12.0,0,-2.6666666666666665,-13.972288445744994,8.02152451129433,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.2,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-10.0,-27.0,8.0,0,8.0,-10.0,25.0,0,5.333333333333333,-6.711634913761998,16.56753774435614,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.2,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,1.0,-16.0,19.0,0,-3.0,-20.0,13.0,0,-2.0,-13.431833445265278,8.76631078397849,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.2,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-11.0,-28.0,12.0,0,9.0,-14.0,25.0,0,6.0,-9.296148738379815,16.733601070950467,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.3,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,2.0,-20.0,22.0,0,-4.0,-16.024999999999977,9.0,0,-2.6666666666666665,-10.818318318318312,6.048387096774194,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.3,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,2.0,-19.0,22.0,0,-4.0,-17.0,10.0,0,-2.6666666666666665,-11.378848728246318,6.583386892944095,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.3,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,4.0,-16.0,25.0,0,-6.0,-20.0,7.0,0,-4.0,-13.201320132013201,4.672975233957009,0,direction uncertain
+qwen2_5_vl_7b__mmstar,max,0.3,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,1.0,-22.0,25.0,0,-3.0,-21.0,14.0,0,-2.0,-14.02805611222445,9.333333333333334,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.05,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-1.0,-10.0,6.0,0,-1.0,-23.0,23.0,0,-0.6666666666666666,-15.313171157089238,15.323117921385743,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.05,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-14.0,4.0,0,3.0,-20.0,25.0,0,2.0,-13.30671989354624,16.823970979421848,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.05,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-12.0,5.0,0,3.0,-21.0,25.0,0,2.0,-13.972288445744994,16.600541356169998,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.05,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-6.0,-15.0,4.0,0,4.0,-19.0,27.0,0,2.6666666666666665,-12.726054922973878,18.02433304526275,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.1,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-15.0,6.0,0,3.0,-19.0,25.0,0,2.0,-12.734584450402144,16.513643083975595,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.1,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-11.0,-21.0,1.0,0,9.0,-13.024999999999977,30.0,0,6.0,-8.807566157954627,19.841598121710625,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.1,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-2.0,-13.0,8.0,0,0.0,-21.0,22.0,0,0.0,-13.981591056472782,14.804845222072679,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.1,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-17.0,7.0,0,3.0,-20.0,25.0,0,2.0,-13.271620441481145,16.64475125770569,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.2,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-4.0,-20.0,14.0,0,2.0,-17.0,20.0,0,1.3333333333333333,-11.356045424181696,13.236267372600926,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.2,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-9.0,-25.0,7.0,0,7.0,-12.0,26.0,0,4.666666666666667,-7.936639248684252,17.207147584381204,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.2,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,3.0,-13.0,20.0,0,-5.0,-24.0,13.0,0,-3.3333333333333335,-15.947108927687848,8.603716235465305,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.2,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-2.0,-23.0,14.0,0,0.0,-19.0,23.0,0,0.0,-12.582989919204419,15.405224380442062,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.3,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-2.0,-21.0,17.0,0,0.0,-15.0,15.0,0,0.0,-10.040160642570282,9.980206032674994,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.3,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-3.0,-22.0,17.0,0,1.0,-15.0,16.0,0,0.6666666666666666,-9.946949602122016,10.723860589812332,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.3,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,4.0,-15.0,22.0,0,-6.0,-21.0,11.0,0,-4.0,-14.037433155080214,7.27044407026231,0,direction uncertain
+qwen2_5_vl_7b__mmstar,entropy,0.3,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,2.0,-21.0,23.0,0,-4.0,-22.0,16.0,0,-2.6666666666666665,-14.627659574468085,10.68804275217101,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.05,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,2.0,-8.0,12.0,0,-4.0,-27.0,18.0,0,-2.6666666666666665,-18.060502881089576,12.016021361815755,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.05,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-14.0,5.0,0,3.0,-20.0,25.0,0,2.0,-13.324672440595158,16.722687852860716,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.05,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-7.0,-17.0,4.0,0,5.0,-18.0,27.0,0,3.3333333333333335,-11.96808510638298,18.096514745308312,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.05,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-16.0,6.0,0,3.0,-20.0,25.0,0,2.0,-13.35113484646195,16.75603217158177,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.1,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,0.0,-14.0,13.0,0,-2.0,-23.0,19.0,0,-1.3333333333333333,-15.242134724807652,12.641383898868929,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.1,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-6.0,-20.0,9.0,0,4.0,-18.0,24.0,0,2.6666666666666665,-11.928627175936423,15.936254980079681,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.1,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-3.0,-18.0,11.0,0,1.0,-19.0,21.0,0,0.6666666666666666,-12.624584717607974,14.075303024581803,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.1,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,1.0,-15.0,17.0,0,-3.0,-25.0,18.0,0,-2.0,-16.523463317911435,11.968284176328192,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.2,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-1.0,-18.0,19.0,0,-1.0,-18.024999999999977,14.0,0,-0.6666666666666666,-12.168362843575117,9.364548494983278,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.2,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,-5.0,-24.0,14.0,0,3.0,-13.0,19.0,0,2.0,-8.701618261391177,12.632978723404255,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.2,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,6.0,-13.0,24.0,0,-8.0,-24.0,9.0,0,-5.333333333333333,-16.02136181575434,5.956418932245211,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.2,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,4.0,-18.0,25.0,0,-6.0,-24.0,14.0,0,-4.0,-16.205266711681297,9.308510638297872,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.3,BF16 risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,0.0,-21.024999999999977,21.0,0,-2.0,-14.0,10.0,0,-1.3333333333333333,-9.345794392523365,6.693552508762442,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.3,TorchAO risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,1.0,-20.0,21.0,0,-3.0,-15.0,10.0,0,-2.0,-10.087594051994811,6.747638326585695,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.3,HQQ risk,HQQ minus TorchAO,-2.0,-26.0,22.0,0,5.0,-16.0,26.0,0,-7.0,-20.0,5.0,0,-4.666666666666667,-13.271400132714001,3.32667997338656,0,direction uncertain
+qwen2_5_vl_7b__mmstar,margin,0.3,native risk per backend,HQQ minus TorchAO,-2.0,-26.0,22.0,0,1.0,-21.0,27.0,0,-3.0,-23.0,12.024999999999636,0,-2.0,-15.343562374916612,8.114024072306547,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.05,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,2.0,-11.0,16.0,0,2.0,-23.0,25.0,0,0.6476683937823834,-7.308722168453174,8.188803663898089,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.05,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,0.0,-14.0,15.0,0,4.0,-21.0,28.0,0,1.2953367875647668,-6.804938071757568,9.151186547646425,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.05,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,8.0,-6.0,21.024999999999636,0,-4.0,-28.0,19.024999999999636,0,-1.2953367875647668,-9.206422295815754,6.306216873221465,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.05,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,10.0,-5.0,25.0,0,-6.0,-31.0,19.0,0,-1.9430051813471503,-10.190769999615577,6.200546925405837,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.1,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-17.0,21.0,0,1.0,-19.024999999999977,22.0,0,0.3238341968911917,-6.314390162844799,7.08546038507226,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.1,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-12.0,-32.0,7.0,0,16.0,-3.0,37.0,0,5.181347150259067,-0.9721322099805574,11.940496653803665,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.1,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,4.0,-14.0,22.0,0,0.0,-22.0,21.0,0,0.0,-7.067167543021885,6.732024655669335,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.1,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,10.0,-12.0,32.0,0,-6.0,-30.0,17.024999999999636,0,-1.9430051813471503,-9.64419207288366,5.665156942340074,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.2,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-21.0,29.0,0,1.0,-11.0,11.0,0,0.3238341968911917,-3.5211831527280273,3.613695916998708,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.2,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-7.0,-33.0,16.0,0,11.0,-1.0,27.0,0,3.562176165803109,-0.3210298646097828,8.858351582585918,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.2,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,11.0,-13.024999999999977,35.0,0,-7.0,-19.0,6.0,0,-2.266839378238342,-6.035644746247624,1.8862884201719348,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.2,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,16.0,-17.0,44.0,0,-12.0,-29.0,12.0,0,-3.8860103626943006,-9.369973161358413,3.8712495173291828,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.3,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-24.0,30.0,0,1.0,-4.0,5.0,0,0.3238341968911917,-1.3089326780113286,1.6491309780657566,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.3,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-1.0,-27.0,27.0,0,5.0,-2.0,10.0,0,1.6191709844559585,-0.6430868167202572,3.1290091624555743,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.3,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,9.0,-18.0,35.0,0,-5.0,-11.0,1.0,0,-1.6191709844559585,-3.6877946639064048,0.32510017232812116,0,direction uncertain
+qwen2_5_vl_7b__ai2d,max,0.3,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,-4.0,-34.0,26.0,0,8.0,-8.0,23.0,0,2.5906735751295336,-2.6042303071032906,7.405022537025113,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.05,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-2.0,-13.0,14.0,0,6.0,-21.0,29.0,0,1.9430051813471503,-6.937676612962675,9.302437531719256,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.05,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,4.0,-10.0,15.0,0,0.0,-23.0,26.0,0,0.0,-7.412398921832884,8.28992786485151,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.05,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,6.0,-5.0,21.0,0,-2.0,-29.0,20.0,0,-0.6476683937823834,-9.319360929007924,6.510469665825464,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.05,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,5.0,-10.0,19.024999999999636,0,-1.0,-27.0,25.0,0,-0.3238341968911917,-8.64332041965881,8.05910547972906,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.1,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-15.0,21.0,0,1.0,-21.0,21.0,0,0.3238341968911917,-6.796226545600885,6.955587148877245,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.1,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-8.0,-26.0,9.0,0,12.0,-8.0,34.0,0,3.8860103626943006,-2.653775817377422,10.98265366773758,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.1,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-14.0,20.0,0,1.0,-21.0,22.0,0,0.3238341968911917,-6.826411354018805,7.246627204711394,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.1,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-17.0,24.0,0,1.0,-24.0,24.0,0,0.3238341968911917,-7.85346740816274,7.874264061363188,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.2,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,8.0,-19.0,30.0,0,-4.0,-14.0,12.0,0,-1.2953367875647668,-4.542615515837647,3.8388023032629555,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.2,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-4.0,-27.0,20.0,0,8.0,-6.0,22.0,0,2.5906735751295336,-1.9525212131628686,7.033473217823562,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.2,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,8.0,-17.0,32.0,0,-4.0,-17.0,10.0,0,-1.2953367875647668,-5.441752245072165,3.399048266485384,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.2,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,14.0,-13.0,43.024999999999636,0,-10.0,-29.0,7.0,0,-3.238341968911917,-9.555315456071769,2.2772560537267643,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.3,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-23.0,31.0,0,1.0,-5.0,5.0,0,0.3238341968911917,-1.7368048111031706,1.6197217483890982,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.3,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,1.0,-25.0,28.0,0,3.0,-3.0,9.0,0,0.9715025906735751,-1.001669449081803,2.870836297682769,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.3,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,9.0,-17.0,35.0,0,-5.0,-12.0,1.0,0,-1.6191709844559585,-3.9345553964888107,0.3399048266485384,0,direction uncertain
+qwen2_5_vl_7b__ai2d,entropy,0.3,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,-5.0,-35.0,26.0,0,9.0,-8.0,25.0,0,2.9145077720207255,-2.665844762886465,7.965517281497619,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.05,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,0.0,-15.0,16.0,0,4.0,-20.0,26.0,0,1.2953367875647668,-6.365372374283895,8.49402561852357,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.05,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-10.0,-24.0,6.0,0,14.0,-10.0,36.0,0,4.533678756476684,-3.1174262296743294,11.875278581482636,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.05,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,7.0,-6.0,19.0,0,-3.0,-27.0,21.0,0,-0.9715025906735751,-8.888998682476943,6.949040370615487,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.05,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,9.0,-7.0,24.0,0,-5.0,-30.0,20.0,0,-1.6191709844559585,-9.666666666666666,6.499890331090226,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.1,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,1.0,-18.0,21.0,0,3.0,-18.0,22.0,0,0.9715025906735751,-5.78233331007823,7.073386873536663,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.1,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-12.0,-32.0,7.0,0,16.0,-3.0,36.0,0,5.181347150259067,-0.9750870332061482,11.654445804590159,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.1,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,6.0,-13.0,25.0,0,-2.0,-23.0,19.0,0,-0.6476683937823834,-7.269310510434144,6.070481726997518,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.1,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,11.0,-11.0,33.0,0,-7.0,-30.0,15.0,0,-2.266839378238342,-9.816821299630009,4.978888070495263,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.2,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,6.0,-20.0,31.0,0,-2.0,-13.0,9.0,0,-0.6476683937823834,-4.299090387437181,2.982231074225076,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.2,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,-8.0,-33.0,17.0,0,12.0,-1.0,26.0,0,3.8860103626943006,-0.3342329852954595,8.433344145313006,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.2,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,10.0,-14.0,35.0,0,-6.0,-19.0,5.0,0,-1.9430051813471503,-6.0169329636289595,1.6677924310790664,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.2,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,13.0,-15.0,43.0,0,-9.0,-29.0,9.0,0,-2.9145077720207255,-9.201521561540774,3.0685828609676142,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.3,BF16 risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,3.0,-24.0,30.0,0,1.0,-4.0,5.0,0,0.3238341968911917,-1.2181291361462199,1.6556428491518396,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.3,TorchAO risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,0.0,-27.0,27.0,0,4.0,-1.0,10.0,0,1.2953367875647668,-0.3257328990228013,3.115264797507788,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.3,HQQ risk,HQQ minus TorchAO,4.0,-24.0,31.0,0,9.0,-18.0,35.0,0,-5.0,-11.0,1.0,0,-1.6191709844559585,-3.5449850636423683,0.33079722130334105,0,direction uncertain
+qwen2_5_vl_7b__ai2d,margin,0.3,native risk per backend,HQQ minus TorchAO,4.0,-24.0,31.0,0,-7.0,-35.0,26.0,0,11.0,-7.0,23.0,0,3.562176165803109,-2.251673035467553,7.490695169907424,0,direction uncertain

@@ -1,0 +1,2770 @@
+{
+  "GT_accessed": true,
+  "bootstrap_computed": true,
+  "candidate_mass_source": "Amendment 004 08_candidate_mass_recovery",
+  "cells": {
+    "internvl3_2b_ai2d": {
+      "dataset": "AI2D",
+      "model": "internvl3_2b",
+      "populations": {
+        "full_clean": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.3820422535211268,
+              "invalid_B": 0,
+              "low_2.5": 0.31060606060606066,
+              "point_estimate": 0.34278350515463923,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.19332901554404144,
+              "invalid_B": 0,
+              "low_2.5": 0.16612694300518135,
+              "point_estimate": 0.1797279792746114,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.025906735751295318,
+              "invalid_B": 0,
+              "low_2.5": -0.05213730569948183,
+              "point_estimate": -0.03886010362694292,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.029821717699613202,
+              "invalid_B": 0,
+              "low_2.5": 0.019261209559262932,
+              "point_estimate": 0.024505473534790864,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": -0.009320522784103107,
+              "invalid_B": 0,
+              "low_2.5": -0.03859774851630077,
+              "point_estimate": -0.0238758603294581,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.29831932773109243,
+              "invalid_B": 0,
+              "low_2.5": 0.22376237623762377,
+              "point_estimate": 0.26380368098159507,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.4507042253521127,
+              "invalid_B": 0,
+              "low_2.5": 0.3872053872053872,
+              "point_estimate": 0.41580756013745707,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.5846153846153846,
+              "invalid_B": 0,
+              "low_2.5": 0.5309661436829067,
+              "point_estimate": 0.5579831932773109,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.1969111969111969,
+              "invalid_B": 0,
+              "low_2.5": 0.10714285714285714,
+              "point_estimate": 0.14814814814814814,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.6817749704413438,
+              "invalid_B": 0,
+              "low_2.5": 0.6575045679285348,
+              "point_estimate": 0.6697305280581657,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.869400626889712,
+              "invalid_B": 0,
+              "low_2.5": 0.848042445029065,
+              "point_estimate": 0.8591566247019481,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.0961762378200101,
+              "invalid_B": 0,
+              "low_2.5": 0.07906585714970753,
+              "point_estimate": 0.08741873111138983,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.8595644085400332,
+              "invalid_B": 0,
+              "low_2.5": 0.8319496765256967,
+              "point_estimate": 0.8457959800542618,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.49825378346915017,
+              "invalid_B": 0,
+              "low_2.5": 0.4454865181711606,
+              "point_estimate": 0.47443519619500596,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.38565022421524664,
+              "invalid_B": 0,
+              "low_2.5": 0.30105263157894735,
+              "point_estimate": 0.3405639913232104,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.5685279187817259,
+              "invalid_B": 0,
+              "low_2.5": 0.5,
+              "point_estimate": 0.539227895392279,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.645075421472937,
+              "invalid_B": 0,
+              "low_2.5": 0.5900514579759862,
+              "point_estimate": 0.6220472440944882,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.2550607287449393,
+              "invalid_B": 0,
+              "low_2.5": 0.16104868913857678,
+              "point_estimate": 0.2109375,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.03717844894333831,
+              "invalid_B": 0,
+              "low_2.5": 0.003613068664313684,
+              "point_estimate": 0.013256196337385553,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.8901565085664227,
+              "invalid_B": 0,
+              "low_2.5": 0.8716825496336877,
+              "point_estimate": 0.8812670597723535,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.09837343806928053,
+              "invalid_B": 0,
+              "low_2.5": 0.08094916082274684,
+              "point_estimate": 0.08947110709631725,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.8523564921082408,
+              "invalid_B": 0,
+              "low_2.5": 0.8244506760141318,
+              "point_estimate": 0.8385417576189577,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.4849941476590636,
+              "invalid_B": 0,
+              "low_2.5": 0.4301926429835057,
+              "point_estimate": 0.45659928656361476,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.19767441860465115,
+              "invalid_B": 0,
+              "low_2.5": 0.13602941176470587,
+              "point_estimate": 0.1638418079096045,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.39346110484780156,
+              "invalid_B": 0,
+              "low_2.5": 0.32903225806451614,
+              "point_estimate": 0.3567508232711306,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.5685279187817259,
+              "invalid_B": 0,
+              "low_2.5": 0.511002444987775,
+              "point_estimate": 0.5411471321695761,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.13138686131386862,
+              "invalid_B": 0,
+              "low_2.5": 0.06164383561643835,
+              "point_estimate": 0.09540636042402827,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.2573246065614694,
+              "invalid_B": 0,
+              "low_2.5": 4.473517540776297e-05,
+              "point_estimate": 0.028474591873273423,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.8507700823545477,
+              "invalid_B": 0,
+              "low_2.5": 0.8267970217028733,
+              "point_estimate": 0.8391617383671914,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.09665868127984749,
+              "invalid_B": 0,
+              "low_2.5": 0.07947078028921248,
+              "point_estimate": 0.0878878357003986,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.8580628219795637,
+              "invalid_B": 0,
+              "low_2.5": 0.8305311928988174,
+              "point_estimate": 0.8444119177002816,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.5030380379712093,
+              "invalid_B": 0,
+              "low_2.5": 0.44680727935382186,
+              "point_estimate": 0.47443519619500596,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.29831932773109243,
+              "invalid_B": 0,
+              "low_2.5": 0.22376237623762377,
+              "point_estimate": 0.26380368098159507,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.4507042253521127,
+              "invalid_B": 0,
+              "low_2.5": 0.3872053872053872,
+              "point_estimate": 0.41580756013745707,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.5846153846153846,
+              "invalid_B": 0,
+              "low_2.5": 0.5309661436829067,
+              "point_estimate": 0.5579831932773109,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.1969111969111969,
+              "invalid_B": 0,
+              "low_2.5": 0.10714285714285714,
+              "point_estimate": 0.14814814814814814,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.6817749704413438,
+              "invalid_B": 0,
+              "low_2.5": 0.6575045679285348,
+              "point_estimate": 0.6697305280581657,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.09859788685840606,
+              "invalid_B": 0,
+              "low_2.5": 0.002265194430310127,
+              "point_estimate": 0.02555192728019213,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.869400626889712,
+              "invalid_B": 0,
+              "low_2.5": 0.848042445029065,
+              "point_estimate": 0.8591566247019481,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": -0.0002503052696045456,
+              "invalid_B": 0,
+              "low_2.5": -0.0007963060810502408,
+              "point_estimate": -0.0005277037984928689,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": -0.00017733488044446855,
+              "invalid_B": 0,
+              "low_2.5": -0.00020023207494734852,
+              "point_estimate": -0.00019069375883989936,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.4866836128949246,
+              "invalid_B": 0,
+              "low_2.5": 0.43345522509345036,
+              "point_estimate": 0.45659928656361476,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.5030380379712093,
+              "invalid_B": 0,
+              "low_2.5": 0.44680727935382186,
+              "point_estimate": 0.47443519619500596,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.441747572815534,
+              "invalid_B": 0,
+              "low_2.5": 0.3786407766990291,
+              "point_estimate": 0.41262135922330095,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.05711983192643766,
+              "invalid_B": 0,
+              "low_2.5": 3.010439813587616e-05,
+              "point_estimate": 0.007792105780367525,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.09859788685840606,
+              "invalid_B": 0,
+              "low_2.5": 0.002265194430310127,
+              "point_estimate": 0.02555192728019213,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.13461073516375777,
+              "invalid_B": 0,
+              "low_2.5": 0.019012064114486898,
+              "point_estimate": 0.05797453661258518,
+              "valid_B": 10000
+            }
+          },
+          "n": 3088,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        },
+        "strict_unseen": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.37000000000000005,
+              "invalid_B": 0,
+              "low_2.5": 0.2923832923832924,
+              "point_estimate": 0.32528230865746555,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.19262015781922512,
+              "invalid_B": 0,
+              "low_2.5": 0.1642754662840746,
+              "point_estimate": 0.17826398852223815,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.026901004304160647,
+              "invalid_B": 0,
+              "low_2.5": -0.05308464849354377,
+              "point_estimate": -0.0398134863701578,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.030124594924022537,
+              "invalid_B": 0,
+              "low_2.5": 0.01895392566288639,
+              "point_estimate": 0.024432860459276243,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": -0.00746269445904235,
+              "invalid_B": 0,
+              "low_2.5": -0.03705269990699179,
+              "point_estimate": -0.0221479177191638,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.2916666666666667,
+              "invalid_B": 0,
+              "low_2.5": 0.21304347826086956,
+              "point_estimate": 0.2539325842696629,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.44,
+              "invalid_B": 0,
+              "low_2.5": 0.371007371007371,
+              "point_estimate": 0.4002509410288582,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.5807365439093485,
+              "invalid_B": 0,
+              "low_2.5": 0.5232029117379435,
+              "point_estimate": 0.5514365152919369,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.19148936170212766,
+              "invalid_B": 0,
+              "low_2.5": 0.10236220472440945,
+              "point_estimate": 0.14285714285714285,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.6792145845582164,
+              "invalid_B": 0,
+              "low_2.5": 0.6538275949964637,
+              "point_estimate": 0.6667184912918196,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.8679535328133241,
+              "invalid_B": 0,
+              "low_2.5": 0.845245748303293,
+              "point_estimate": 0.8571401274996227,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.0978569923114182,
+              "invalid_B": 0,
+              "low_2.5": 0.07923545660419001,
+              "point_estimate": 0.08827848143765772,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.8592191242962244,
+              "invalid_B": 0,
+              "low_2.5": 0.8306719267754248,
+              "point_estimate": 0.8449942559422682,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.49863023055617933,
+              "invalid_B": 0,
+              "low_2.5": 0.4403652608517048,
+              "point_estimate": 0.47313237221494103,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.37438423645320196,
+              "invalid_B": 0,
+              "low_2.5": 0.28868360277136257,
+              "point_estimate": 0.3317422434367542,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.5652173913043478,
+              "invalid_B": 0,
+              "low_2.5": 0.4959785522788204,
+              "point_estimate": 0.5371900826446281,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.6363636363636364,
+              "invalid_B": 0,
+              "low_2.5": 0.5792452830188679,
+              "point_estimate": 0.6127167630057804,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.26126126126126126,
+              "invalid_B": 0,
+              "low_2.5": 0.15702479338842976,
+              "point_estimate": 0.21212121212121213,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.041268162595215985,
+              "invalid_B": 0,
+              "low_2.5": 0.004744380385636732,
+              "point_estimate": 0.015593491379325877,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.8889105531112411,
+              "invalid_B": 0,
+              "low_2.5": 0.869878325000737,
+              "point_estimate": 0.879842648886264,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.10016481118524843,
+              "invalid_B": 0,
+              "low_2.5": 0.0811831056488691,
+              "point_estimate": 0.09034919853283933,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.8520196470857613,
+              "invalid_B": 0,
+              "low_2.5": 0.8230782510979201,
+              "point_estimate": 0.8378221121952009,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.48300348005532584,
+              "invalid_B": 0,
+              "low_2.5": 0.42670113841493357,
+              "point_estimate": 0.4534731323722149,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.19230769230769232,
+              "invalid_B": 0,
+              "low_2.5": 0.12727272727272726,
+              "point_estimate": 0.15767634854771784,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.38978829389788294,
+              "invalid_B": 0,
+              "low_2.5": 0.3238434163701068,
+              "point_estimate": 0.35108958837772397,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.5644859813084112,
+              "invalid_B": 0,
+              "low_2.5": 0.5013452914798207,
+              "point_estimate": 0.534372135655362,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.12449799196787148,
+              "invalid_B": 0,
+              "low_2.5": 0.05660377358490566,
+              "point_estimate": 0.09375,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.2560285882981168,
+              "invalid_B": 0,
+              "low_2.5": 3.191424635458019e-05,
+              "point_estimate": 0.027241497813009663,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.8497293048717373,
+              "invalid_B": 0,
+              "low_2.5": 0.8238239445864702,
+              "point_estimate": 0.8372807308222247,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.0983367694808322,
+              "invalid_B": 0,
+              "low_2.5": 0.07965625422025381,
+              "point_estimate": 0.08871576498137133,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.8579202252353938,
+              "invalid_B": 0,
+              "low_2.5": 0.8292333386911449,
+              "point_estimate": 0.8437943141918677,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.501333422459893,
+              "invalid_B": 0,
+              "low_2.5": 0.44235529412885827,
+              "point_estimate": 0.4705111402359109,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.2916666666666667,
+              "invalid_B": 0,
+              "low_2.5": 0.21304347826086956,
+              "point_estimate": 0.2539325842696629,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.44,
+              "invalid_B": 0,
+              "low_2.5": 0.371007371007371,
+              "point_estimate": 0.4002509410288582,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.5807365439093485,
+              "invalid_B": 0,
+              "low_2.5": 0.5232029117379435,
+              "point_estimate": 0.5514365152919369,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.19148936170212766,
+              "invalid_B": 0,
+              "low_2.5": 0.10236220472440945,
+              "point_estimate": 0.14285714285714285,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.6792145845582164,
+              "invalid_B": 0,
+              "low_2.5": 0.6538275949964637,
+              "point_estimate": 0.6667184912918196,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.11618128245232061,
+              "invalid_B": 0,
+              "low_2.5": 0.003674059240312694,
+              "point_estimate": 0.032084040307356135,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.8679535328133241,
+              "invalid_B": 0,
+              "low_2.5": 0.845245748303293,
+              "point_estimate": 0.8571401274996227,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": -0.00027549172824782185,
+              "invalid_B": 0,
+              "low_2.5": -0.0008619270201567419,
+              "point_estimate": -0.0005686911004278036,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": -0.000175455646753081,
+              "invalid_B": 0,
+              "low_2.5": -0.00020024624441075529,
+              "point_estimate": -0.00019069066724985984,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.49043715846994534,
+              "invalid_B": 0,
+              "low_2.5": 0.43472906403940886,
+              "point_estimate": 0.4600262123197903,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.501333422459893,
+              "invalid_B": 0,
+              "low_2.5": 0.44235529412885827,
+              "point_estimate": 0.4705111402359109,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.45878136200716846,
+              "invalid_B": 0,
+              "low_2.5": 0.3888888888888889,
+              "point_estimate": 0.4283154121863799,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.07209720006390864,
+              "invalid_B": 0,
+              "low_2.5": 7.301491169837335e-05,
+              "point_estimate": 0.010653244757857939,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.11618128245232061,
+              "invalid_B": 0,
+              "low_2.5": 0.003674059240312694,
+              "point_estimate": 0.032084040307356135,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.1536500199442343,
+              "invalid_B": 0,
+              "low_2.5": 0.024584252631789805,
+              "point_estimate": 0.06913320849743541,
+              "valid_B": 10000
+            }
+          },
+          "n": 2788,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        }
+      }
+    },
+    "internvl3_2b_mmstar": {
+      "dataset": "MMStar",
+      "model": "internvl3_2b",
+      "populations": {
+        "full_clean": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.3017241379310345,
+              "invalid_B": 0,
+              "low_2.5": 0.21103896103896105,
+              "point_estimate": 0.2600671140939598,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.298,
+              "invalid_B": 0,
+              "low_2.5": 0.25266666666666665,
+              "point_estimate": 0.2753333333333333,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.007333333333333303,
+              "invalid_B": 0,
+              "low_2.5": -0.053333333333333344,
+              "point_estimate": -0.03066666666666673,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.06088853852872245,
+              "invalid_B": 0,
+              "low_2.5": 0.026767679110198728,
+              "point_estimate": 0.04376474502160804,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": 0.0020448077732118765,
+              "invalid_B": 0,
+              "low_2.5": -0.05316047213687974,
+              "point_estimate": -0.025705315309229815,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.28205128205128205,
+              "invalid_B": 0,
+              "low_2.5": 0.18110236220472442,
+              "point_estimate": 0.2396694214876033,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.3793103448275862,
+              "invalid_B": 0,
+              "low_2.5": 0.2987012987012987,
+              "point_estimate": 0.3422818791946309,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.47783251231527096,
+              "invalid_B": 0,
+              "low_2.5": 0.4040561622464899,
+              "point_estimate": 0.44,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.2,
+              "invalid_B": 0,
+              "low_2.5": 0.07913669064748201,
+              "point_estimate": 0.13636363636363635,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.5603275618388733,
+              "invalid_B": 0,
+              "low_2.5": 0.5071230298276157,
+              "point_estimate": 0.5342436995365785,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.7439890262778538,
+              "invalid_B": 0,
+              "low_2.5": 0.6848538741850703,
+              "point_estimate": 0.715732312760263,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.32998358938085076,
+              "invalid_B": 0,
+              "low_2.5": 0.27425491153604153,
+              "point_estimate": 0.3019717181399736,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.7201373101785082,
+              "invalid_B": 0,
+              "low_2.5": 0.6676954667307606,
+              "point_estimate": 0.6935993889904066,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.3081570996978852,
+              "invalid_B": 0,
+              "low_2.5": 0.26536312849162014,
+              "point_estimate": 0.2869318181818182,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.3333333333333333,
+              "invalid_B": 0,
+              "low_2.5": 0.22448979591836735,
+              "point_estimate": 0.2765957446808511,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.5037593984962406,
+              "invalid_B": 0,
+              "low_2.5": 0.41509433962264153,
+              "point_estimate": 0.4492753623188406,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.5985790408525755,
+              "invalid_B": 0,
+              "low_2.5": 0.5177065767284992,
+              "point_estimate": 0.5625,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.29310344827586204,
+              "invalid_B": 0,
+              "low_2.5": 0.15384615384615385,
+              "point_estimate": 0.22950819672131148,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.15668508296492065,
+              "invalid_B": 0,
+              "low_2.5": 0.009686163891284428,
+              "point_estimate": 0.06442265755434758,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.8090858280909539,
+              "invalid_B": 0,
+              "low_2.5": 0.7619272716399763,
+              "point_estimate": 0.7867128733299902,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.33314073223590274,
+              "invalid_B": 0,
+              "low_2.5": 0.2767688638097489,
+              "point_estimate": 0.3045357781354965,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.7169882672207589,
+              "invalid_B": 0,
+              "low_2.5": 0.6643322497470626,
+              "point_estimate": 0.6909360367176793,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.3090135011699346,
+              "invalid_B": 0,
+              "low_2.5": 0.2660013491317498,
+              "point_estimate": 0.2869318181818182,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.14068441064638784,
+              "invalid_B": 0,
+              "low_2.5": 0.06382978723404255,
+              "point_estimate": 0.0948905109489051,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.2711864406779661,
+              "invalid_B": 0,
+              "low_2.5": 0.1999401197604791,
+              "point_estimate": 0.23203285420944558,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.36570561456752654,
+              "invalid_B": 0,
+              "low_2.5": 0.2968299711815562,
+              "point_estimate": 0.32547864506627394,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.12781954887218044,
+              "invalid_B": 0,
+              "low_2.5": 0.034482758620689655,
+              "point_estimate": 0.07142857142857142,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.32595739602722895,
+              "invalid_B": 0,
+              "low_2.5": 0.0017028789247932488,
+              "point_estimate": 0.03571691566618983,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.6821189271109543,
+              "invalid_B": 0,
+              "low_2.5": 0.6126165753290298,
+              "point_estimate": 0.6487840682847468,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.3303055514559143,
+              "invalid_B": 0,
+              "low_2.5": 0.27424535675101497,
+              "point_estimate": 0.3019276817286315,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.7218264917363011,
+              "invalid_B": 0,
+              "low_2.5": 0.6695278323505222,
+              "point_estimate": 0.6957577304134308,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.3183856502242152,
+              "invalid_B": 0,
+              "low_2.5": 0.2762963766434258,
+              "point_estimate": 0.296875,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.28205128205128205,
+              "invalid_B": 0,
+              "low_2.5": 0.18110236220472442,
+              "point_estimate": 0.2396694214876033,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.3793103448275862,
+              "invalid_B": 0,
+              "low_2.5": 0.2987012987012987,
+              "point_estimate": 0.3422818791946309,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.47783251231527096,
+              "invalid_B": 0,
+              "low_2.5": 0.4040561622464899,
+              "point_estimate": 0.44,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.2,
+              "invalid_B": 0,
+              "low_2.5": 0.07913669064748201,
+              "point_estimate": 0.13636363636363635,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.5603275618388733,
+              "invalid_B": 0,
+              "low_2.5": 0.5071230298276157,
+              "point_estimate": 0.5342436995365785,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.11895210624315486,
+              "invalid_B": 0,
+              "low_2.5": 0.006243237797768796,
+              "point_estimate": 0.038363822932990815,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.7439890262778538,
+              "invalid_B": 0,
+              "low_2.5": 0.6848538741850703,
+              "point_estimate": 0.715732312760263,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.0063857479190121535,
+              "invalid_B": 0,
+              "low_2.5": 0.0016605345804067255,
+              "point_estimate": 0.004029182614076908,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": -6.483612531060778e-05,
+              "invalid_B": 0,
+              "low_2.5": -8.20048891702882e-05,
+              "point_estimate": -7.24647340565876e-05,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.2965036997885835,
+              "invalid_B": 0,
+              "low_2.5": 0.25383542538354253,
+              "point_estimate": 0.2741477272727273,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.3183856502242152,
+              "invalid_B": 0,
+              "low_2.5": 0.2762963766434258,
+              "point_estimate": 0.296875,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.54,
+              "invalid_B": 0,
+              "low_2.5": 0.45,
+              "point_estimate": 0.49,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.06453440546788085,
+              "invalid_B": 0,
+              "low_2.5": 0.00028918778398551984,
+              "point_estimate": 0.009963700150495991,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.11895210624315486,
+              "invalid_B": 0,
+              "low_2.5": 0.006243237797768796,
+              "point_estimate": 0.038363822932990815,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.16489941395119367,
+              "invalid_B": 0,
+              "low_2.5": 0.030647343160322867,
+              "point_estimate": 0.08295304897045404,
+              "valid_B": 10000
+            }
+          },
+          "n": 1500,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        },
+        "strict_unseen": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.27112676056338025,
+              "invalid_B": 0,
+              "low_2.5": 0.17105263157894737,
+              "point_estimate": 0.21739130434782614,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.33,
+              "invalid_B": 0,
+              "low_2.5": 0.2783333333333333,
+              "point_estimate": 0.30416666666666664,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.015000000000000013,
+              "invalid_B": 0,
+              "low_2.5": -0.06833333333333336,
+              "point_estimate": -0.041666666666666685,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.08857304511349869,
+              "invalid_B": 0,
+              "low_2.5": 0.04328611077148244,
+              "point_estimate": 0.06559420722546216,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": -0.008249378651546289,
+              "invalid_B": 0,
+              "low_2.5": -0.07220499235382076,
+              "point_estimate": -0.03991098934658044,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.2631578947368421,
+              "invalid_B": 0,
+              "low_2.5": 0.15384615384615385,
+              "point_estimate": 0.21212121212121213,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.352112676056338,
+              "invalid_B": 0,
+              "low_2.5": 0.2631578947368421,
+              "point_estimate": 0.30434782608695654,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.460446247464503,
+              "invalid_B": 0,
+              "low_2.5": 0.3793103448275862,
+              "point_estimate": 0.42292490118577075,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.18811881188118812,
+              "invalid_B": 0,
+              "low_2.5": 0.07142857142857142,
+              "point_estimate": 0.1320754716981132,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.5205840454536962,
+              "invalid_B": 0,
+              "low_2.5": 0.457832037724351,
+              "point_estimate": 0.4892910838630716,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.7030487349693427,
+              "invalid_B": 0,
+              "low_2.5": 0.6289419508978998,
+              "point_estimate": 0.6670945426569038,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.3910536782728651,
+              "invalid_B": 0,
+              "low_2.5": 0.32220020462957555,
+              "point_estimate": 0.3552875499581732,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.697493993881953,
+              "invalid_B": 0,
+              "low_2.5": 0.635467985044558,
+              "point_estimate": 0.6664601760078226,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.30081369133019065,
+              "invalid_B": 0,
+              "low_2.5": 0.2548693443653121,
+              "point_estimate": 0.2764900662251656,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.3259668508287293,
+              "invalid_B": 0,
+              "low_2.5": 0.20603015075376885,
+              "point_estimate": 0.2631578947368421,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.48606811145510836,
+              "invalid_B": 0,
+              "low_2.5": 0.38328530259365995,
+              "point_estimate": 0.43283582089552236,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.5686274509803921,
+              "invalid_B": 0,
+              "low_2.5": 0.48148148148148145,
+              "point_estimate": 0.5189873417721519,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.25,
+              "invalid_B": 0,
+              "low_2.5": 0.10091743119266056,
+              "point_estimate": 0.1650485436893204,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.15743798618886964,
+              "invalid_B": 0,
+              "low_2.5": 0.00949459442302323,
+              "point_estimate": 0.06442306656171644,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.7787856913166077,
+              "invalid_B": 0,
+              "low_2.5": 0.7196849466363785,
+              "point_estimate": 0.750357631826449,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.39035449184492577,
+              "invalid_B": 0,
+              "low_2.5": 0.32147801532365067,
+              "point_estimate": 0.3547056373301398,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.7005817331058908,
+              "invalid_B": 0,
+              "low_2.5": 0.6395155013090712,
+              "point_estimate": 0.6703311813858394,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.30034144506067506,
+              "invalid_B": 0,
+              "low_2.5": 0.25670955336461365,
+              "point_estimate": 0.2781456953642384,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.1320754716981132,
+              "invalid_B": 0,
+              "low_2.5": 0.05726872246696035,
+              "point_estimate": 0.09090909090909091,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.23393316195372751,
+              "invalid_B": 0,
+              "low_2.5": 0.1566265060240964,
+              "point_estimate": 0.18518518518518517,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.3358070500927644,
+              "invalid_B": 0,
+              "low_2.5": 0.26537785588752194,
+              "point_estimate": 0.30434782608695654,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.1320754716981132,
+              "invalid_B": 0,
+              "low_2.5": 0.034482758620689655,
+              "point_estimate": 0.08108108108108109,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.34015702787684104,
+              "invalid_B": 0,
+              "low_2.5": 0.001998845381821982,
+              "point_estimate": 0.05892245967685876,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.6263353092109984,
+              "invalid_B": 0,
+              "low_2.5": 0.5411053006729634,
+              "point_estimate": 0.5845936149063276,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.3886479772047225,
+              "invalid_B": 0,
+              "low_2.5": 0.32014277540581865,
+              "point_estimate": 0.35312773257933133,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.7041897307182732,
+              "invalid_B": 0,
+              "low_2.5": 0.6427832712047895,
+              "point_estimate": 0.673335481576959,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.30528144795611634,
+              "invalid_B": 0,
+              "low_2.5": 0.26156299840510366,
+              "point_estimate": 0.28311258278145696,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.2631578947368421,
+              "invalid_B": 0,
+              "low_2.5": 0.15384615384615385,
+              "point_estimate": 0.21212121212121213,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.352112676056338,
+              "invalid_B": 0,
+              "low_2.5": 0.2631578947368421,
+              "point_estimate": 0.30434782608695654,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.460446247464503,
+              "invalid_B": 0,
+              "low_2.5": 0.3793103448275862,
+              "point_estimate": 0.42292490118577075,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.18811881188118812,
+              "invalid_B": 0,
+              "low_2.5": 0.07142857142857142,
+              "point_estimate": 0.1320754716981132,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.5205840454536962,
+              "invalid_B": 0,
+              "low_2.5": 0.457832037724351,
+              "point_estimate": 0.4892910838630716,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.11910885838929713,
+              "invalid_B": 0,
+              "low_2.5": 0.007336524216054952,
+              "point_estimate": 0.03931314753804541,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.7030487349693427,
+              "invalid_B": 0,
+              "low_2.5": 0.6289419508978998,
+              "point_estimate": 0.6670945426569038,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.008454284264522013,
+              "invalid_B": 0,
+              "low_2.5": 0.002809372948576032,
+              "point_estimate": 0.005601618167321013,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": -5.7205399779436394e-05,
+              "invalid_B": 0,
+              "low_2.5": -8.391238326060924e-05,
+              "point_estimate": -7.056496760260433e-05,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.2753390734753686,
+              "invalid_B": 0,
+              "low_2.5": 0.22996405937062744,
+              "point_estimate": 0.2533112582781457,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.30528144795611634,
+              "invalid_B": 0,
+              "low_2.5": 0.26156299840510366,
+              "point_estimate": 0.28311258278145696,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.5833333333333334,
+              "invalid_B": 0,
+              "low_2.5": 0.4791666666666667,
+              "point_estimate": 0.5333333333333333,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.06490359127290311,
+              "invalid_B": 0,
+              "low_2.5": 0.00039324042815074885,
+              "point_estimate": 0.010072633973200119,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.11910885838929713,
+              "invalid_B": 0,
+              "low_2.5": 0.007336524216054952,
+              "point_estimate": 0.03931314753804541,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.1668145303008537,
+              "invalid_B": 0,
+              "low_2.5": 0.033763378213216025,
+              "point_estimate": 0.08531404562907344,
+              "valid_B": 10000
+            }
+          },
+          "n": 1200,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        }
+      }
+    },
+    "qwen2_5_vl_7b_ai2d": {
+      "dataset": "AI2D",
+      "model": "qwen2_5_vl_7b",
+      "populations": {
+        "full_clean": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.6652892561983471,
+              "invalid_B": 0,
+              "low_2.5": 0.5796052631578946,
+              "point_estimate": 0.6239892183288409,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.07351036269430052,
+              "invalid_B": 0,
+              "low_2.5": 0.056347150259067356,
+              "point_estimate": 0.06476683937823834,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.0009715025906735786,
+              "invalid_B": 0,
+              "low_2.5": -0.01716321243523311,
+              "point_estimate": -0.0090673575129534,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.0041362021566845155,
+              "invalid_B": 0,
+              "low_2.5": 0.0006841240896082385,
+              "point_estimate": 0.002415663905123315,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": 0.012405655307677855,
+              "invalid_B": 0,
+              "low_2.5": -0.008695404941493354,
+              "point_estimate": 0.0018193242519757291,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.4855769230769231,
+              "invalid_B": 0,
+              "low_2.5": 0.3887640449438202,
+              "point_estimate": 0.4305555555555556,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.7024793388429752,
+              "invalid_B": 0,
+              "low_2.5": 0.6263157894736842,
+              "point_estimate": 0.6657681940700808,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.8320158102766798,
+              "invalid_B": 0,
+              "low_2.5": 0.7792706333973128,
+              "point_estimate": 0.8087804878048781,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.45539906103286387,
+              "invalid_B": 0,
+              "low_2.5": 0.3247863247863248,
+              "point_estimate": 0.3963963963963964,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.8334349174089862,
+              "invalid_B": 0,
+              "low_2.5": 0.8215330595488375,
+              "point_estimate": 0.8275852012299576,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.9644282149306816,
+              "invalid_B": 0,
+              "low_2.5": 0.9587893491953138,
+              "point_estimate": 0.9618139746400688,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.0460298959233625,
+              "invalid_B": 0,
+              "low_2.5": 0.035556407552378176,
+              "point_estimate": 0.04064105560847565,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.9005551704936933,
+              "invalid_B": 0,
+              "low_2.5": 0.8754138681464122,
+              "point_estimate": 0.8884694546646752,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.6462962962962963,
+              "invalid_B": 0,
+              "low_2.5": 0.5711775043936731,
+              "point_estimate": 0.6095406360424028,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.6436170212765957,
+              "invalid_B": 0,
+              "low_2.5": 0.5411471321695761,
+              "point_estimate": 0.5968992248062015,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.7286713286713287,
+              "invalid_B": 0,
+              "low_2.5": 0.6612903225806451,
+              "point_estimate": 0.6931506849315069,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.8320158102766798,
+              "invalid_B": 0,
+              "low_2.5": 0.7792706333973128,
+              "point_estimate": 0.8087804878048781,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.5422885572139303,
+              "invalid_B": 0,
+              "low_2.5": 0.4155251141552511,
+              "point_estimate": 0.48325358851674644,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.553811342222785,
+              "invalid_B": 0,
+              "low_2.5": 0.040604332357866015,
+              "point_estimate": 0.2298691394032521,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.9687235894198855,
+              "invalid_B": 0,
+              "low_2.5": 0.9637006661333591,
+              "point_estimate": 0.9663988663835359,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.046399010070945684,
+              "invalid_B": 0,
+              "low_2.5": 0.035913027442169544,
+              "point_estimate": 0.04101135187147505,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.8985722683783318,
+              "invalid_B": 0,
+              "low_2.5": 0.8734678170935589,
+              "point_estimate": 0.8864981099189325,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.6423519824898434,
+              "invalid_B": 0,
+              "low_2.5": 0.571917663352108,
+              "point_estimate": 0.6060070671378092,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.44730679156908665,
+              "invalid_B": 0,
+              "low_2.5": 0.35526315789473684,
+              "point_estimate": 0.40454545454545454,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.6793478260869565,
+              "invalid_B": 0,
+              "low_2.5": 0.6010362694300518,
+              "point_estimate": 0.6458055925432756,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.8284023668639053,
+              "invalid_B": 0,
+              "low_2.5": 0.7775647171620326,
+              "point_estimate": 0.8035019455252919,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.3135593220338983,
+              "invalid_B": 0,
+              "low_2.5": 0.20155038759689922,
+              "point_estimate": 0.2601626016260163,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.326170274486934,
+              "invalid_B": 0,
+              "low_2.5": 0.003859388718831978,
+              "point_estimate": 0.1744630531025496,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.9611968137305564,
+              "invalid_B": 0,
+              "low_2.5": 0.9549644041320094,
+              "point_estimate": 0.9583155567955483,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.046055903467346955,
+              "invalid_B": 0,
+              "low_2.5": 0.03558947450397588,
+              "point_estimate": 0.04067217524819806,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.9002999739546627,
+              "invalid_B": 0,
+              "low_2.5": 0.8753496358868883,
+              "point_estimate": 0.8883310962470191,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.6444454173963806,
+              "invalid_B": 0,
+              "low_2.5": 0.5748692181549596,
+              "point_estimate": 0.6060070671378092,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.4855769230769231,
+              "invalid_B": 0,
+              "low_2.5": 0.3887640449438202,
+              "point_estimate": 0.4305555555555556,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.7024793388429752,
+              "invalid_B": 0,
+              "low_2.5": 0.6263157894736842,
+              "point_estimate": 0.6657681940700808,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.8320158102766798,
+              "invalid_B": 0,
+              "low_2.5": 0.7792706333973128,
+              "point_estimate": 0.8087804878048781,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.45539906103286387,
+              "invalid_B": 0,
+              "low_2.5": 0.3247863247863248,
+              "point_estimate": 0.3963963963963964,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.8334349174089862,
+              "invalid_B": 0,
+              "low_2.5": 0.8215330595488375,
+              "point_estimate": 0.8275852012299576,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.6107973780739052,
+              "invalid_B": 0,
+              "low_2.5": 0.03898255526271402,
+              "point_estimate": 0.33154306225124125,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.9644282149306816,
+              "invalid_B": 0,
+              "low_2.5": 0.9587893491953138,
+              "point_estimate": 0.9618139746400688,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.0004468358420684871,
+              "invalid_B": 0,
+              "low_2.5": -0.0002983253212416666,
+              "point_estimate": 8.123143054759306e-05,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": 0.0,
+              "invalid_B": 0,
+              "low_2.5": 0.0,
+              "point_estimate": 0.0,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.6624325152168358,
+              "invalid_B": 0,
+              "low_2.5": 0.5892540366110557,
+              "point_estimate": 0.6289752650176679,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.6444454173963806,
+              "invalid_B": 0,
+              "low_2.5": 0.5748692181549596,
+              "point_estimate": 0.6060070671378092,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.2297734627831715,
+              "invalid_B": 0,
+              "low_2.5": 0.17475728155339806,
+              "point_estimate": 0.20064724919093851,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.7517105346457119,
+              "invalid_B": 0,
+              "low_2.5": 0.005750698016711076,
+              "point_estimate": 0.4210430601062239,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.6107973780739052,
+              "invalid_B": 0,
+              "low_2.5": 0.03898255526271402,
+              "point_estimate": 0.33154306225124125,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.5174091651283251,
+              "invalid_B": 0,
+              "low_2.5": 0.10830040640916812,
+              "point_estimate": 0.31783368167207415,
+              "valid_B": 10000
+            }
+          },
+          "n": 3088,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        },
+        "strict_unseen": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.660958904109589,
+              "invalid_B": 0,
+              "low_2.5": 0.5722060957910015,
+              "point_estimate": 0.6210879284649776,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.07496413199426112,
+              "invalid_B": 0,
+              "low_2.5": 0.05667144906743185,
+              "point_estimate": 0.06563845050215208,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": -0.0017934002869440802,
+              "invalid_B": 0,
+              "low_2.5": -0.019010043041606917,
+              "point_estimate": -0.010401721664275443,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.004556403483302202,
+              "invalid_B": 0,
+              "low_2.5": 0.0008487353427224893,
+              "point_estimate": 0.00269420417598229,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": 0.014101057565354581,
+              "invalid_B": 0,
+              "low_2.5": -0.008718963177082591,
+              "point_estimate": 0.002556707270021219,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.48404255319148937,
+              "invalid_B": 0,
+              "low_2.5": 0.38461538461538464,
+              "point_estimate": 0.4381443298969072,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.6986301369863014,
+              "invalid_B": 0,
+              "low_2.5": 0.6197387518142236,
+              "point_estimate": 0.6631892697466468,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.8295081967213115,
+              "invalid_B": 0,
+              "low_2.5": 0.7751855779427359,
+              "point_estimate": 0.8077753779697624,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.44329896907216493,
+              "invalid_B": 0,
+              "low_2.5": 0.3145539906103286,
+              "point_estimate": 0.3793103448275862,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.8328908141091774,
+              "invalid_B": 0,
+              "low_2.5": 0.8202207617928704,
+              "point_estimate": 0.8267837223590332,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.9641141042187127,
+              "invalid_B": 0,
+              "low_2.5": 0.9580723936038527,
+              "point_estimate": 0.9613930493011721,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.04692481514442233,
+              "invalid_B": 0,
+              "low_2.5": 0.03575949945116824,
+              "point_estimate": 0.04111520334820862,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.9006755904976514,
+              "invalid_B": 0,
+              "low_2.5": 0.8738497869615164,
+              "point_estimate": 0.8874254276966169,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.6467065868263473,
+              "invalid_B": 0,
+              "low_2.5": 0.5695970695970696,
+              "point_estimate": 0.609375,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.6363636363636364,
+              "invalid_B": 0,
+              "low_2.5": 0.5287671232876713,
+              "point_estimate": 0.5852272727272727,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.7275541795665634,
+              "invalid_B": 0,
+              "low_2.5": 0.655786350148368,
+              "point_estimate": 0.6883509833585476,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.8335158817086528,
+              "invalid_B": 0,
+              "low_2.5": 0.7733050847457628,
+              "point_estimate": 0.8038793103448276,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.5469613259668509,
+              "invalid_B": 0,
+              "low_2.5": 0.40703517587939697,
+              "point_estimate": 0.48936170212765956,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.5746881574967638,
+              "invalid_B": 0,
+              "low_2.5": 0.06500903414120911,
+              "point_estimate": 0.2664072438702457,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.9684576273088809,
+              "invalid_B": 0,
+              "low_2.5": 0.9631287390889166,
+              "point_estimate": 0.9660585521346812,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.047264635095746944,
+              "invalid_B": 0,
+              "low_2.5": 0.03601533382732218,
+              "point_estimate": 0.04141347172645241,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.8992467094311485,
+              "invalid_B": 0,
+              "low_2.5": 0.8720409766319783,
+              "point_estimate": 0.8858327211939807,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.6454361645987506,
+              "invalid_B": 0,
+              "low_2.5": 0.571992110453649,
+              "point_estimate": 0.607421875,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.4418604651162791,
+              "invalid_B": 0,
+              "low_2.5": 0.34782608695652173,
+              "point_estimate": 0.39849624060150374,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.6756756756756757,
+              "invalid_B": 0,
+              "low_2.5": 0.5920114122681883,
+              "point_estimate": 0.6411764705882353,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.8275109170305677,
+              "invalid_B": 0,
+              "low_2.5": 0.7733050847457628,
+              "point_estimate": 0.7980665950590763,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.3145539906103286,
+              "invalid_B": 0,
+              "low_2.5": 0.19658119658119658,
+              "point_estimate": 0.2669683257918552,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.34731062310776734,
+              "invalid_B": 0,
+              "low_2.5": 0.006170974857813194,
+              "point_estimate": 0.1760763900116829,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.9608657230717262,
+              "invalid_B": 0,
+              "low_2.5": 0.9541923777948179,
+              "point_estimate": 0.9578366888784262,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.046939838719146386,
+              "invalid_B": 0,
+              "low_2.5": 0.03575891178557409,
+              "point_estimate": 0.041109810476995655,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.9007310411706219,
+              "invalid_B": 0,
+              "low_2.5": 0.8738195738005612,
+              "point_estimate": 0.8874661893123902,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.6461546610169492,
+              "invalid_B": 0,
+              "low_2.5": 0.5741079494128274,
+              "point_estimate": 0.609375,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.48404255319148937,
+              "invalid_B": 0,
+              "low_2.5": 0.38461538461538464,
+              "point_estimate": 0.4381443298969072,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.6986301369863014,
+              "invalid_B": 0,
+              "low_2.5": 0.6197387518142236,
+              "point_estimate": 0.6631892697466468,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.8295081967213115,
+              "invalid_B": 0,
+              "low_2.5": 0.7751855779427359,
+              "point_estimate": 0.8077753779697624,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.44329896907216493,
+              "invalid_B": 0,
+              "low_2.5": 0.3145539906103286,
+              "point_estimate": 0.3793103448275862,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.8328908141091774,
+              "invalid_B": 0,
+              "low_2.5": 0.8202207617928704,
+              "point_estimate": 0.8267837223590332,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.6383902491415275,
+              "invalid_B": 0,
+              "low_2.5": 0.05581289951641451,
+              "point_estimate": 0.35780360378196147,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.9641141042187127,
+              "invalid_B": 0,
+              "low_2.5": 0.9580723936038527,
+              "point_estimate": 0.9613930493011721,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.00046886542559077834,
+              "invalid_B": 0,
+              "low_2.5": -0.0003422295299448905,
+              "point_estimate": 6.973650588371232e-05,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": 0.0,
+              "invalid_B": 0,
+              "low_2.5": 0.0,
+              "point_estimate": 0.0,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.6659530046926967,
+              "invalid_B": 0,
+              "low_2.5": 0.5884543761638734,
+              "point_estimate": 0.630859375,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.6461546610169492,
+              "invalid_B": 0,
+              "low_2.5": 0.5741079494128274,
+              "point_estimate": 0.609375,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.23476702508960573,
+              "invalid_B": 0,
+              "low_2.5": 0.1774193548387097,
+              "point_estimate": 0.2025089605734767,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.76717998490067,
+              "invalid_B": 0,
+              "low_2.5": 0.010993086742117226,
+              "point_estimate": 0.43447892996286336,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.6383902491415275,
+              "invalid_B": 0,
+              "low_2.5": 0.05581289951641451,
+              "point_estimate": 0.35780360378196147,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.5495597417647405,
+              "invalid_B": 0,
+              "low_2.5": 0.13277424130081733,
+              "point_estimate": 0.34943650432988055,
+              "valid_B": 10000
+            }
+          },
+          "n": 2788,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        }
+      }
+    },
+    "qwen2_5_vl_7b_mmstar": {
+      "dataset": "MMStar",
+      "model": "qwen2_5_vl_7b",
+      "populations": {
+        "full_clean": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.5310026385224275,
+              "invalid_B": 0,
+              "low_2.5": 0.40441176470588236,
+              "point_estimate": 0.47193877551020413,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.13466666666666666,
+              "invalid_B": 0,
+              "low_2.5": 0.10266666666666667,
+              "point_estimate": 0.11866666666666667,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": 0.003999999999999895,
+              "invalid_B": 0,
+              "low_2.5": -0.02733333333333332,
+              "point_estimate": -0.01200000000000001,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.013426891429013604,
+              "invalid_B": 0,
+              "low_2.5": 0.0006723084269097548,
+              "point_estimate": 0.006965587730229816,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": 0.029008362954993348,
+              "invalid_B": 0,
+              "low_2.5": -0.014209619847011273,
+              "point_estimate": 0.007622868661758875,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.5544041450777202,
+              "invalid_B": 0,
+              "low_2.5": 0.41509433962264153,
+              "point_estimate": 0.48514851485148514,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.58311345646438,
+              "invalid_B": 0,
+              "low_2.5": 0.47058823529411764,
+              "point_estimate": 0.5306122448979592,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.6759776536312849,
+              "invalid_B": 0,
+              "low_2.5": 0.5817223198594025,
+              "point_estimate": 0.6274864376130199,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.47058823529411764,
+              "invalid_B": 0,
+              "low_2.5": 0.2711864406779661,
+              "point_estimate": 0.36363636363636365,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.7950382397701673,
+              "invalid_B": 0,
+              "low_2.5": 0.7634566725815258,
+              "point_estimate": 0.7795352006460867,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.9359787249201866,
+              "invalid_B": 0,
+              "low_2.5": 0.9133981821016801,
+              "point_estimate": 0.9254143055493829,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.24222993478380941,
+              "invalid_B": 0,
+              "low_2.5": 0.1955153587343848,
+              "point_estimate": 0.21835609852960253,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.766903160319302,
+              "invalid_B": 0,
+              "low_2.5": 0.7172298599317517,
+              "point_estimate": 0.7420629646857303,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.3567753001715266,
+              "invalid_B": 0,
+              "low_2.5": 0.3061945461358854,
+              "point_estimate": 0.33003300330033003,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.7142857142857143,
+              "invalid_B": 0,
+              "low_2.5": 0.5625,
+              "point_estimate": 0.6666666666666666,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.7391304347826086,
+              "invalid_B": 0,
+              "low_2.5": 0.639344262295082,
+              "point_estimate": 0.6949152542372882,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.7786561264822134,
+              "invalid_B": 0,
+              "low_2.5": 0.7013232514177694,
+              "point_estimate": 0.7441860465116279,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.5957446808510638,
+              "invalid_B": 0,
+              "low_2.5": 0.40186915887850466,
+              "point_estimate": 0.48514851485148514,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.25173626372209357,
+              "invalid_B": 0,
+              "low_2.5": 0.0683860088005134,
+              "point_estimate": 0.12789734417296877,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.9588857582560542,
+              "invalid_B": 0,
+              "low_2.5": 0.9445532038417448,
+              "point_estimate": 0.9522284194729844,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.2477549017503585,
+              "invalid_B": 0,
+              "low_2.5": 0.20035787799042679,
+              "point_estimate": 0.22353257025592788,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.7526636000262875,
+              "invalid_B": 0,
+              "low_2.5": 0.7016551219208901,
+              "point_estimate": 0.7272474730694546,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.32695721187025534,
+              "invalid_B": 0,
+              "low_2.5": 0.2737700298302579,
+              "point_estimate": 0.2986798679867987,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.28205128205128205,
+              "invalid_B": 0,
+              "low_2.5": 0.17647058823529413,
+              "point_estimate": 0.2345679012345679,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.49625935162094764,
+              "invalid_B": 0,
+              "low_2.5": 0.3953488372093023,
+              "point_estimate": 0.431980906921241,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.6423357664233577,
+              "invalid_B": 0,
+              "low_2.5": 0.5597920277296361,
+              "point_estimate": 0.5957446808510638,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.20967741935483872,
+              "invalid_B": 0,
+              "low_2.5": 0.08695652173913043,
+              "point_estimate": 0.1450381679389313,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.00579770945444951,
+              "invalid_B": 0,
+              "low_2.5": 0.000585486146925509,
+              "point_estimate": 0.0019371760767210476,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.9140510947083511,
+              "invalid_B": 0,
+              "low_2.5": 0.8845763519646545,
+              "point_estimate": 0.9002495980510282,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.24463412943095023,
+              "invalid_B": 0,
+              "low_2.5": 0.19744118102621952,
+              "point_estimate": 0.22046145488804042,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.7613358520045315,
+              "invalid_B": 0,
+              "low_2.5": 0.7112538932387988,
+              "point_estimate": 0.7365088857879076,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.35234940385604957,
+              "invalid_B": 0,
+              "low_2.5": 0.3018242122719735,
+              "point_estimate": 0.32838283828382836,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.5544041450777202,
+              "invalid_B": 0,
+              "low_2.5": 0.41509433962264153,
+              "point_estimate": 0.48514851485148514,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.58311345646438,
+              "invalid_B": 0,
+              "low_2.5": 0.47058823529411764,
+              "point_estimate": 0.5306122448979592,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.6759776536312849,
+              "invalid_B": 0,
+              "low_2.5": 0.5817223198594025,
+              "point_estimate": 0.6274864376130199,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.47058823529411764,
+              "invalid_B": 0,
+              "low_2.5": 0.2711864406779661,
+              "point_estimate": 0.36363636363636365,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.7950382397701673,
+              "invalid_B": 0,
+              "low_2.5": 0.7634566725815258,
+              "point_estimate": 0.7795352006460867,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.2773105146130397,
+              "invalid_B": 0,
+              "low_2.5": 0.0409175196758169,
+              "point_estimate": 0.13379543259893933,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.9359787249201866,
+              "invalid_B": 0,
+              "low_2.5": 0.9133981821016801,
+              "point_estimate": 0.9254143055493829,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.00048637933435183246,
+              "invalid_B": 0,
+              "low_2.5": 7.33289065834955e-05,
+              "point_estimate": 0.00026180538692549934,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": 3.8146572481356777e-06,
+              "invalid_B": 0,
+              "low_2.5": 0.0,
+              "point_estimate": 1.9069339484700798e-06,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.34406868650913175,
+              "invalid_B": 0,
+              "low_2.5": 0.2937164820653785,
+              "point_estimate": 0.3201320132013201,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.35234940385604957,
+              "invalid_B": 0,
+              "low_2.5": 0.3018242122719735,
+              "point_estimate": 0.32838283828382836,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.36,
+              "invalid_B": 0,
+              "low_2.5": 0.2633333333333333,
+              "point_estimate": 0.30666666666666664,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.21895780415069238,
+              "invalid_B": 0,
+              "low_2.5": 0.005387643089621326,
+              "point_estimate": 0.07031966280549586,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.2773105146130397,
+              "invalid_B": 0,
+              "low_2.5": 0.0409175196758169,
+              "point_estimate": 0.13379543259893933,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.3392843555936189,
+              "invalid_B": 0,
+              "low_2.5": 0.12332033778688205,
+              "point_estimate": 0.21986635268827628,
+              "valid_B": 10000
+            }
+          },
+          "n": 1500,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        },
+        "strict_unseen": {
+          "invalid_replicates": {},
+          "metrics": {
+            "078.adjusted_j20": {
+              "high_97.5": 0.55,
+              "invalid_B": 0,
+              "low_2.5": 0.42182662538699695,
+              "point_estimate": 0.4975728155339806,
+              "valid_B": 10000
+            },
+            "078.answer_flip_rate": {
+              "high_97.5": 0.14833333333333334,
+              "invalid_B": 0,
+              "low_2.5": 0.11083333333333334,
+              "point_estimate": 0.12916666666666668,
+              "valid_B": 10000
+            },
+            "078.delta_accuracy": {
+              "high_97.5": 0.004166666666666652,
+              "invalid_B": 0,
+              "low_2.5": -0.03249999999999997,
+              "point_estimate": -0.01416666666666666,
+              "valid_B": 10000
+            },
+            "078.delta_aurc": {
+              "high_97.5": 0.017003465896223317,
+              "invalid_B": 0,
+              "low_2.5": 0.0006827261240933825,
+              "point_estimate": 0.008804768161886772,
+              "valid_B": 10000
+            },
+            "078.delta_auroc": {
+              "high_97.5": 0.032085414879592385,
+              "invalid_B": 0,
+              "low_2.5": -0.017205436231265712,
+              "point_estimate": 0.007388696797524852,
+              "valid_B": 10000
+            },
+            "078.j10": {
+              "high_97.5": 0.5686274509803921,
+              "invalid_B": 0,
+              "low_2.5": 0.40350877192982454,
+              "point_estimate": 0.4906832298136646,
+              "valid_B": 10000
+            },
+            "078.j20": {
+              "high_97.5": 0.6,
+              "invalid_B": 0,
+              "low_2.5": 0.48606811145510836,
+              "point_estimate": 0.5533980582524272,
+              "valid_B": 10000
+            },
+            "078.j30": {
+              "high_97.5": 0.6363636363636364,
+              "invalid_B": 0,
+              "low_2.5": 0.5417558886509636,
+              "point_estimate": 0.5824175824175825,
+              "valid_B": 10000
+            },
+            "078.j5": {
+              "high_97.5": 0.42857142857142855,
+              "invalid_B": 0,
+              "low_2.5": 0.22448979591836735,
+              "point_estimate": 0.2903225806451613,
+              "valid_B": 10000
+            },
+            "078.kendall_tau_b": {
+              "high_97.5": 0.7781425536571527,
+              "invalid_B": 0,
+              "low_2.5": 0.7406175382689221,
+              "point_estimate": 0.7599111701149743,
+              "valid_B": 10000
+            },
+            "078.spearman": {
+              "high_97.5": 0.9253266617496924,
+              "invalid_B": 0,
+              "low_2.5": 0.8970909355634348,
+              "point_estimate": 0.9123568606600948,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_aurc": {
+              "high_97.5": 0.2464924286975974,
+              "invalid_B": 0,
+              "low_2.5": 0.1944292220117944,
+              "point_estimate": 0.2197852673999158,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_auroc": {
+              "high_97.5": 0.7712684568800076,
+              "invalid_B": 0,
+              "low_2.5": 0.7173031590617451,
+              "point_estimate": 0.7442339054127514,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.int4_recall_at_20": {
+              "high_97.5": 0.3682092555331992,
+              "invalid_B": 0,
+              "low_2.5": 0.313373253493014,
+              "point_estimate": 0.3394683026584867,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j10": {
+              "high_97.5": 0.7021276595744681,
+              "invalid_B": 0,
+              "low_2.5": 0.5384615384615384,
+              "point_estimate": 0.610738255033557,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j20": {
+              "high_97.5": 0.7142857142857143,
+              "invalid_B": 0,
+              "low_2.5": 0.6053511705685619,
+              "point_estimate": 0.6551724137931034,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j30": {
+              "high_97.5": 0.7733990147783252,
+              "invalid_B": 0,
+              "low_2.5": 0.6861826697892272,
+              "point_estimate": 0.722488038277512,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.j5": {
+              "high_97.5": 0.5789473684210527,
+              "invalid_B": 0,
+              "low_2.5": 0.36363636363636365,
+              "point_estimate": 0.48148148148148145,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.rbo_p090": {
+              "high_97.5": 0.2867266981547749,
+              "invalid_B": 0,
+              "low_2.5": 0.0791877810441168,
+              "point_estimate": 0.14621654774303058,
+              "valid_B": 10000
+            },
+            "079.risk_entropy.spearman": {
+              "high_97.5": 0.9527306031181656,
+              "invalid_B": 0,
+              "low_2.5": 0.9345074322384002,
+              "point_estimate": 0.9444054468232795,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_aurc": {
+              "high_97.5": 0.253198761290504,
+              "invalid_B": 0,
+              "low_2.5": 0.20090090672465413,
+              "point_estimate": 0.22632348496506988,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_auroc": {
+              "high_97.5": 0.7523779976784124,
+              "invalid_B": 0,
+              "low_2.5": 0.6967666489179338,
+              "point_estimate": 0.7249503133637637,
+              "valid_B": 10000
+            },
+            "079.risk_margin.int4_recall_at_20": {
+              "high_97.5": 0.32112068965517243,
+              "invalid_B": 0,
+              "low_2.5": 0.2644615776415885,
+              "point_estimate": 0.29243353783231085,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j10": {
+              "high_97.5": 0.2698412698412698,
+              "invalid_B": 0,
+              "low_2.5": 0.14285714285714285,
+              "point_estimate": 0.2182741116751269,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j20": {
+              "high_97.5": 0.48148148148148145,
+              "invalid_B": 0,
+              "low_2.5": 0.3793103448275862,
+              "point_estimate": 0.437125748502994,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j30": {
+              "high_97.5": 0.6289592760180995,
+              "invalid_B": 0,
+              "low_2.5": 0.5384615384615384,
+              "point_estimate": 0.5824175824175825,
+              "valid_B": 10000
+            },
+            "079.risk_margin.j5": {
+              "high_97.5": 0.21212121212121213,
+              "invalid_B": 0,
+              "low_2.5": 0.07142857142857142,
+              "point_estimate": 0.1650485436893204,
+              "valid_B": 10000
+            },
+            "079.risk_margin.rbo_p090": {
+              "high_97.5": 0.009316113846815587,
+              "invalid_B": 0,
+              "low_2.5": 0.0009776805275610533,
+              "point_estimate": 0.0032161682382839153,
+              "valid_B": 10000
+            },
+            "079.risk_margin.spearman": {
+              "high_97.5": 0.8986116649051958,
+              "invalid_B": 0,
+              "low_2.5": 0.861190027739678,
+              "point_estimate": 0.8812625573561708,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_aurc": {
+              "high_97.5": 0.24932538024908285,
+              "invalid_B": 0,
+              "low_2.5": 0.19721163588826565,
+              "point_estimate": 0.22256347199891016,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_auroc": {
+              "high_97.5": 0.763908120884462,
+              "invalid_B": 0,
+              "low_2.5": 0.7089531874441858,
+              "point_estimate": 0.7368017625453364,
+              "valid_B": 10000
+            },
+            "079.risk_max.int4_recall_at_20": {
+              "high_97.5": 0.35396698583562597,
+              "invalid_B": 0,
+              "low_2.5": 0.2985677600317635,
+              "point_estimate": 0.32515337423312884,
+              "valid_B": 10000
+            },
+            "079.risk_max.j10": {
+              "high_97.5": 0.5686274509803921,
+              "invalid_B": 0,
+              "low_2.5": 0.40350877192982454,
+              "point_estimate": 0.4906832298136646,
+              "valid_B": 10000
+            },
+            "079.risk_max.j20": {
+              "high_97.5": 0.6,
+              "invalid_B": 0,
+              "low_2.5": 0.48606811145510836,
+              "point_estimate": 0.5533980582524272,
+              "valid_B": 10000
+            },
+            "079.risk_max.j30": {
+              "high_97.5": 0.6363636363636364,
+              "invalid_B": 0,
+              "low_2.5": 0.5417558886509636,
+              "point_estimate": 0.5824175824175825,
+              "valid_B": 10000
+            },
+            "079.risk_max.j5": {
+              "high_97.5": 0.42857142857142855,
+              "invalid_B": 0,
+              "low_2.5": 0.22448979591836735,
+              "point_estimate": 0.2903225806451613,
+              "valid_B": 10000
+            },
+            "079.risk_max.kendall_tau_b": {
+              "high_97.5": 0.7781425536571527,
+              "invalid_B": 0,
+              "low_2.5": 0.7406175382689221,
+              "point_estimate": 0.7599111701149743,
+              "valid_B": 10000
+            },
+            "079.risk_max.rbo_p090": {
+              "high_97.5": 0.3134190957227374,
+              "invalid_B": 0,
+              "low_2.5": 0.04821574713002984,
+              "point_estimate": 0.162112967203708,
+              "valid_B": 10000
+            },
+            "079.risk_max.spearman": {
+              "high_97.5": 0.9253266617496924,
+              "invalid_B": 0,
+              "low_2.5": 0.8970909355634348,
+              "point_estimate": 0.9123568606600948,
+              "valid_B": 10000
+            },
+            "080.paired_mean_delta": {
+              "high_97.5": 0.0006023063728940788,
+              "invalid_B": 0,
+              "low_2.5": 8.271607306223036e-05,
+              "point_estimate": 0.0003226513088443604,
+              "valid_B": 10000
+            },
+            "080.paired_median_delta": {
+              "high_97.5": 7.626368333180089e-06,
+              "invalid_B": 0,
+              "low_2.5": 0.0,
+              "point_estimate": 1.9073377188760787e-06,
+              "valid_B": 10000
+            },
+            "081.bf16_risk_recall_20": {
+              "high_97.5": 0.3488372093023256,
+              "invalid_B": 0,
+              "low_2.5": 0.2925838190904631,
+              "point_estimate": 0.3210633946830266,
+              "valid_B": 10000
+            },
+            "081.int4_risk_recall_20": {
+              "high_97.5": 0.35396698583562597,
+              "invalid_B": 0,
+              "low_2.5": 0.2985677600317635,
+              "point_estimate": 0.32515337423312884,
+              "valid_B": 10000
+            },
+            "081.replacement_fraction_20": {
+              "high_97.5": 0.3458333333333333,
+              "invalid_B": 0,
+              "low_2.5": 0.25,
+              "point_estimate": 0.2875,
+              "valid_B": 10000
+            },
+            "082.rbo_p080": {
+              "high_97.5": 0.2658368070199704,
+              "invalid_B": 0,
+              "low_2.5": 0.006807797690641547,
+              "point_estimate": 0.10073597761057015,
+              "valid_B": 10000
+            },
+            "082.rbo_p090": {
+              "high_97.5": 0.3134190957227374,
+              "invalid_B": 0,
+              "low_2.5": 0.04821574713002984,
+              "point_estimate": 0.162112967203708,
+              "valid_B": 10000
+            },
+            "082.rbo_p095": {
+              "high_97.5": 0.361769692870078,
+              "invalid_B": 0,
+              "low_2.5": 0.13707794332237658,
+              "point_estimate": 0.24427988919002286,
+              "valid_B": 10000
+            }
+          },
+          "n": 1200,
+          "paired_resampling": true,
+          "replicates_requested": 10000,
+          "resample_unit": "sample_id",
+          "rng": "numpy.default_rng / PCG64",
+          "seed": 20260913
+        }
+      }
+    }
+  },
+  "metric_scope": {
+    "078_primary": "delta_accuracy, answer_flip_rate, Spearman, Kendall tau-b, J5/J10/J20/J30, adjusted J20, delta AUROC, delta AURC",
+    "079_risk_ablation": "all three signals: Spearman, J5/J10/J20/J30, RBO p=.90, INT4 AUROC/AURC/Recall@20; Kendall tau-b for risk_max",
+    "080_candidate_mass": "paired mean delta and paired median delta",
+    "081_queue": "replacement_fraction@20, INT4-risk Recall@20, BF16-risk Recall@20",
+    "082_rbo": "p=.90 primary and p=.80/.95 sensitivity"
+  },
+  "paired_resampling": true,
+  "percentile_CI": [
+    2.5,
+    97.5
+  ],
+  "protocol_version": "v1.3",
+  "replicates_requested": 10000,
+  "resample_unit": "sample_id",
+  "seed": 20260913,
+  "stage": "083_PAIRED_BOOTSTRAP_V1_3",
+  "status": "PASS",
+  "validity_audit": "archive://original/artifacts/eswa_revision_v1/10_bootstrap/083_bootstrap_validity_audit_v1_3.json"
+}

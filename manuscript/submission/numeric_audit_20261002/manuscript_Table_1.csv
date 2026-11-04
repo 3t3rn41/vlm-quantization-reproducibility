@@ -1,0 +1,6 @@
+﻿Study / setting,Selection and comparison,Reported endpoint,Relation to this audit
+Selective prediction [7–9]; budgeted review [32–34],Input / output / entity selection by confidence,Selective risk; bounded-budget error capture,Provides risk and budget evaluation foundations
+Kurz et al. [36]; reliable VQA,Quantization levels; intrinsic confidence and Selector,Calibration; selective VQA reliability; memory,Reliability across precision; this audit fixes error labels and queue size
+Chen et al. [22]; NF4 LMs,Attention-head rankings and selected head sets,Rank / set agreement; sink-map transfer,Rank-to-set precedent; different selection unit and outcome
+Park et al. [35]; bounded review,Risk and review-value prioritization of answer variants,Unreviewed wrong answers; benchmark-defined repair exposure,Distinguishes capture from repair; precision transfer is the present contrast
+This study; INT4 g128 VLMs,Paired input queues with equal capacity and shared INT4 labels,Member replacement; net capture; paired intervals; separate cost,Offline audit of which members change and what errors are gained or lost

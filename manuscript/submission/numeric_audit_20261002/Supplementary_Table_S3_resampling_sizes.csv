@@ -1,0 +1,9 @@
+﻿cell,unit,groups,replicates,replicate_n_min,replicate_n_max,replicate_n_mean
+internvl3_2b__mmstar,row,1430,10000,1500,1500,1500.0
+internvl3_2b__mmstar,image,1430,10000,1467,1539,1499.9512
+internvl3_2b__ai2d,row,814,10000,3088,3088,3088.0
+internvl3_2b__ai2d,image,814,10000,2781,3440,3087.7051
+qwen2_5_vl_7b__mmstar,row,1430,10000,1500,1500,1500.0
+qwen2_5_vl_7b__mmstar,image,1430,10000,1469,1543,1500.0085
+qwen2_5_vl_7b__ai2d,row,814,10000,3088,3088,3088.0
+qwen2_5_vl_7b__ai2d,image,814,10000,2776,3395,3089.1834

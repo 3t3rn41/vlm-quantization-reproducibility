@@ -1,0 +1,5 @@
+Versioned reproduction archive v20261102. No reuse license has been assigned. Includes recorded numeric random streams for reproducibility. Original images, question text, gold answer keys and model weights are external inputs.
+Inference environment versions are recorded in protocol/environment.json. requirements_analysis.txt pins this CPU analysis runtime only.
+Point audit: python derived_audit/reconstruct.py
+CPU smoke: python compute_group_intervals.py --replicates 30 --output smoke.json
+CPU full: python compute_group_intervals.py --replicates 10000 --output regenerated.json

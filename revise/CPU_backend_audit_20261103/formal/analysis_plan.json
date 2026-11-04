@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-03",
+  "design": "post-hoc paired image-group audit",
+  "replicates": 10000,
+  "seed": 20261002,
+  "primary": "max-probability risk; q=0.20; HQQ minus TorchAO residual errors; native and fixed-BF16 policies",
+  "sensitivity": "3 signals x 4 budgets x 4 policies; all 3 sources x 3 targets; all 3 source pairs",
+  "interval": "pointwise 95% percentile, unadjusted for multiplicity",
+  "direction_labels": "interval direction on these evaluated data",
+  "weighting": "question weighted; draw G image groups with replacement, retain every question occurrence, recompute n* and k*=ceil(q*n*)",
+  "ties": "risk descending then source_row ascending; retain repeated occurrences",
+  "error_exposure": "benchmark errors outside the selected queue",
+  "gpu_inference": false,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "workers": 2
+}

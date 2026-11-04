@@ -1,0 +1,12 @@
+{
+  "full_replicates_per_cell": 10000,
+  "cells": 4,
+  "archived_endpoint_checks": 56,
+  "all_archived_endpoint_checks_passed": true,
+  "all_endpoint_invalid_replicates": 0,
+  "independent_pairwise_auc_and_direct_prefix_aurc_examples": 20,
+  "tolerance": 1e-12,
+  "cpu_portable_smoke": "PASS 30; independently run from reproduction_v20261102",
+  "point_reconstruction": "PASS all 4 cells and constructed identity example",
+  "gpu_inference": false
+}

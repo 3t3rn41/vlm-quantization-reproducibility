@@ -1,0 +1,123 @@
+{
+  "stage": "085_QUANTIZATION_COVERAGE_AUDIT_R1_3",
+  "status": "PASS",
+  "backend": "TorchAO 0.9 INT4 weight-only g128",
+  "backend_config": {
+    "method": "int4_weight_only",
+    "group_size": 128
+  },
+  "models_audited": 2,
+  "reference_universe": "BF16 Linear modules",
+  "parameter_denominator": "Linear weight.numel",
+  "inference_run": false,
+  "GT_accessed": false,
+  "scientific_outcome_metrics_computed": false,
+  "network_requests": 0,
+  "coverage_threshold_applied": false,
+  "models": {
+    "internvl3_2b": {
+      "total_linear_modules": 295,
+      "quantized_linear_modules": 294,
+      "unquantized_linear_modules": 1,
+      "quantized_module_fraction": 0.9966101694915255,
+      "total_linear_weight_parameters": 1853807616,
+      "quantized_linear_weight_parameters": 1620836352,
+      "unquantized_linear_weight_parameters": 232971264,
+      "quantized_linear_parameter_fraction": 0.8743282409731993,
+      "components": {
+        "vision_encoder": {
+          "linear_modules": 96,
+          "quantized_modules": 96,
+          "module_fraction": 1.0,
+          "linear_weight_parameters": 301989888,
+          "quantized_weight_parameters": 301989888,
+          "parameter_fraction": 1.0
+        },
+        "projector": {
+          "linear_modules": 0,
+          "quantized_modules": 0,
+          "module_fraction": 0.0,
+          "linear_weight_parameters": 0,
+          "quantized_weight_parameters": 0,
+          "parameter_fraction": 0.0
+        },
+        "language_model": {
+          "linear_modules": 196,
+          "quantized_modules": 196,
+          "module_fraction": 1.0,
+          "linear_weight_parameters": 1310195712,
+          "quantized_weight_parameters": 1310195712,
+          "parameter_fraction": 1.0
+        },
+        "lm_head": {
+          "linear_modules": 1,
+          "quantized_modules": 0,
+          "module_fraction": 0.0,
+          "linear_weight_parameters": 232971264,
+          "quantized_weight_parameters": 0,
+          "parameter_fraction": 0.0
+        },
+        "other": {
+          "linear_modules": 2,
+          "quantized_modules": 2,
+          "module_fraction": 1.0,
+          "linear_weight_parameters": 8650752,
+          "quantized_weight_parameters": 8650752,
+          "parameter_fraction": 1.0
+        }
+      }
+    },
+    "qwen2_5_vl_7b": {
+      "total_linear_modules": 359,
+      "quantized_linear_modules": 326,
+      "unquantized_linear_modules": 33,
+      "quantized_module_fraction": 0.9080779944289693,
+      "total_linear_weight_parameters": 7744815104,
+      "quantized_linear_weight_parameters": 7059734528,
+      "unquantized_linear_weight_parameters": 685080576,
+      "quantized_linear_parameter_fraction": 0.9115433271420291,
+      "components": {
+        "vision_encoder": {
+          "linear_modules": 0,
+          "quantized_modules": 0,
+          "module_fraction": 0.0,
+          "linear_weight_parameters": 0,
+          "quantized_weight_parameters": 0,
+          "parameter_fraction": 0.0
+        },
+        "projector": {
+          "linear_modules": 0,
+          "quantized_modules": 0,
+          "module_fraction": 0.0,
+          "linear_weight_parameters": 0,
+          "quantized_weight_parameters": 0,
+          "parameter_fraction": 0.0
+        },
+        "language_model": {
+          "linear_modules": 196,
+          "quantized_modules": 196,
+          "module_fraction": 1.0,
+          "linear_weight_parameters": 6525288448,
+          "quantized_weight_parameters": 6525288448,
+          "parameter_fraction": 1.0
+        },
+        "lm_head": {
+          "linear_modules": 1,
+          "quantized_modules": 0,
+          "module_fraction": 0.0,
+          "linear_weight_parameters": 544997376,
+          "quantized_weight_parameters": 0,
+          "parameter_fraction": 0.0
+        },
+        "other": {
+          "linear_modules": 162,
+          "quantized_modules": 130,
+          "module_fraction": 0.8024691358024691,
+          "linear_weight_parameters": 674529280,
+          "quantized_weight_parameters": 534446080,
+          "parameter_fraction": 0.792324508136993
+        }
+      }
+    }
+  }
+}

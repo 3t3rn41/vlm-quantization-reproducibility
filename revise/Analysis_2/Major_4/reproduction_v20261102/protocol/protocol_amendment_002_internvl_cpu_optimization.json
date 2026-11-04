@@ -1,0 +1,82 @@
+{
+  "schema": "vlm.eswa_revision_v1.protocol_amendment.v1",
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_002",
+  "protocol_version_from": "v1.1",
+  "protocol_version_to": "v1.2",
+  "stage_detected": "R1.2_engineering_equivalence_validation",
+  "activation_status": "ACTIVE",
+  "reason": "CPU oversubscription engineering defect on the InternVL dynamic-preprocessing path: the host exposes many CPUs while the container cgroup grants 10 CPUs.",
+  "trigger": "engineering timing/profile only",
+  "scope": "InternVL execution path only",
+  "GT_accessed": false,
+  "scientific_metrics_seen": false,
+  "scientific_metrics_computed": false,
+  "old_frozen_config_unchanged": true,
+  "old_artifacts_preserved_read_only": true,
+  "execution_implementation_changed": true,
+  "prediction_side_exact_equivalence": true,
+  "dataset_changed": false,
+  "model_changed": false,
+  "backend_changed": false,
+  "prompt_changed": false,
+  "candidate_adapter_changed": false,
+  "analysis_plan_changed": false,
+  "old_execution": {
+    "torch_cpu_threads": "default environment (host nproc exposes 255; container quota is 10 CPUs)",
+    "internvl_normalization": "per-block ToTensor/Normalize"
+  },
+  "new_execution_candidate": {
+    "torch_set_num_threads": 8,
+    "internvl_normalization": "vectorized/batched normalization",
+    "normalization_constants_unchanged": true,
+    "image_tiling_decisions_unchanged": true,
+    "resized_pixels_unchanged": true
+  },
+  "unchanged": {
+    "input_samples": true,
+    "manifest_and_order": true,
+    "processor_semantics": true,
+    "prompt": true,
+    "candidate_adapter": true,
+    "model_revision": "f6c7b60375759170fd49f5e9e298e2178485cba5",
+    "backend": "TorchAO INT4 weight-only g128 for R1.2",
+    "int4_group_size": 128,
+    "candidate_extraction_position": "output.logits[0,-1,:] at contextual A/B/C/D token IDs",
+    "analysis_plan": true
+  },
+  "ownership_gate": {
+    "status": "PASS_USER_AUTHORIZED",
+    "pid": 14828,
+    "launcher_pid": 14827,
+    "postrun_pid": 15220,
+    "cwd": "[OMITTED_LOCAL_PATH]",
+    "manifest": "artifacts/eswa_revision_v1/01_manifests/mmstar_full_clean.jsonl",
+    "output": "artifacts/eswa_revision_v1/02_full_inference/internvl3_2b/mmstar/int4_g128",
+    "model": "internvl3_2b",
+    "dataset": "mmstar",
+    "backend": "int4_g128",
+    "launcher_matches_target": true
+  },
+  "required_gates": [
+    "safe atomic-flush stop of the pre-v1.2 R1.2 process",
+    "165-row-or-all-completed-row scratch exact comparison against the archived pre-v1.2 rows",
+    "full 1500-row BF16 cell exact comparison against the v1.1 canonical reference",
+    "no mixed-configuration resume",
+    "rename/archive old artifacts before any canonical promotion"
+  ],
+  "equivalence_results": {
+    "int4_completed_prefix_rows": 210,
+    "int4_different_rows": 0,
+    "int4_preprocessing_different_count": 0,
+    "int4_preprocessing_max_abs_diff": 0.0,
+    "bf16_full_rows": 1500,
+    "bf16_different_rows": 0,
+    "bf16_preprocessing_different_count": 0,
+    "bf16_preprocessing_max_abs_diff": 0.0,
+    "comparison_method": "direct structural and element-wise comparison; no hashes",
+    "GT_accessed": false,
+    "scientific_metrics_computed": false
+  },
+  "failure_action": "Reject Amendment 002, keep frozen_config_v1_1 active, resume the preserved R1.2 partial only with v1.1, and continue all subsequent cells with v1.1.",
+  "hashes_used": false
+}

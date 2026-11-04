@@ -1,0 +1,9 @@
+﻿cell,backend,unique_risks,tied_rows,tied_percent
+internvl3_2b__mmstar,bf16,1426,140,9.333333333333334
+internvl3_2b__mmstar,int4,1414,168,11.2
+internvl3_2b__ai2d,bf16,2898,368,11.917098445595855
+internvl3_2b__ai2d,int4,2862,425,13.762953367875648
+qwen2_5_vl_7b__mmstar,bf16,1443,109,7.266666666666667
+qwen2_5_vl_7b__mmstar,int4,1438,118,7.866666666666666
+qwen2_5_vl_7b__ai2d,bf16,2875,392,12.694300518134716
+qwen2_5_vl_7b__ai2d,int4,2887,377,12.208549222797927

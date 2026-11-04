@@ -1,0 +1,53 @@
+{
+  "mmstar": {
+    "dataset": "mmstar",
+    "rows": 1500,
+    "source_image_identifiers": 1500,
+    "byte_identical_image_groups": 1430,
+    "min_questions_per_group": 1,
+    "max_questions_per_group": 4,
+    "mean_questions_per_group": 1.048951048951049,
+    "group_size_distribution": {
+      "1": 1369,
+      "2": 53,
+      "3": 7,
+      "4": 1
+    },
+    "source_ID_to_bytes_consistent": true,
+    "all_image_files_checked": 1500,
+    "rule": "group by byte-identical materialized image; preserve every question",
+    "cryptographic_hashes_computed": false,
+    "cross_source_ID_content_merges": 70
+  },
+  "ai2d": {
+    "dataset": "ai2d",
+    "rows": 3088,
+    "source_image_identifiers": 814,
+    "byte_identical_image_groups": 814,
+    "min_questions_per_group": 1,
+    "max_questions_per_group": 23,
+    "mean_questions_per_group": 3.7936117936117935,
+    "group_size_distribution": {
+      "1": 132,
+      "2": 199,
+      "3": 156,
+      "4": 132,
+      "5": 61,
+      "6": 38,
+      "7": 6,
+      "8": 5,
+      "9": 18,
+      "10": 18,
+      "11": 22,
+      "12": 23,
+      "20": 1,
+      "22": 2,
+      "23": 1
+    },
+    "source_ID_to_bytes_consistent": true,
+    "all_image_files_checked": 3088,
+    "rule": "group by byte-identical materialized image; preserve every question",
+    "cryptographic_hashes_computed": false,
+    "cross_source_ID_content_merges": 0
+  }
+}

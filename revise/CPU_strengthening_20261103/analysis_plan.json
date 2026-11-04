@@ -1,0 +1,22 @@
+{
+  "design": "post-hoc paired interaction analysis; specified after observing earlier aggregate results",
+  "gpu_inference": false,
+  "new_prediction_records": 0,
+  "replicates": 10000,
+  "signal": "max",
+  "q": 0.2,
+  "seed_sequence": "[20261002, cell_index, 1]",
+  "cell_order": [
+    "internvl3_2b__mmstar",
+    "internvl3_2b__ai2d",
+    "qwen2_5_vl_7b__mmstar",
+    "qwen2_5_vl_7b__ai2d"
+  ],
+  "policy_interaction": "(U_HQQrisk,HQQ-U_TorchAOrisk,TorchAO)-(U_BF16risk,HQQ-U_BF16risk,TorchAO)",
+  "target_interaction": "(Y_HQQrisk,HQQ-Y_TorchAOrisk,HQQ)-(Y_HQQrisk,TorchAO-Y_TorchAOrisk,TorchAO)",
+  "uncertainty": "paired image-group percentile; 95% pointwise and 99.375% marginal Bonferroni percentile intervals for eight contrasts (nominal 95% family coverage, bootstrap approximation)",
+  "normalization": "1000*contrast/n* within each replicate; same eight contrasts in count and normalized units",
+  "weighting": "question-weighted; sampled image-group multiplicities retained; k*=ceil(.2*n*)",
+  "selection": "all four model-dataset cells and both named interactions retained",
+  "independence": "same historical questions, no new independent validation"
+}

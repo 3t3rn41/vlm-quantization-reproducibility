@@ -1,0 +1,10 @@
+﻿Model,Backend,"Median
+(s)","P95
+(s)","Throughput
+(samples/s)","Resident
+(GiB)","Peak
+(GiB)"
+InternVL,BF16,0.347,0.453,3.342,3.89,5.44
+InternVL,INT4 g128,0.943,1.167,1.259,1.87,3.41
+Qwen,BF16,0.098,0.187,8.864,15.45,15.97
+Qwen,INT4 g128,0.382,0.738,2.310,6.33,6.85

@@ -1,0 +1,172 @@
+[
+  {
+    "model": "internvl3_2b",
+    "category": "vision_encoder",
+    "observed_new_target": [
+      96,
+      96,
+      301989888,
+      301989888
+    ],
+    "archived_torchao": [
+      96,
+      96,
+      301989888,
+      301989888
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "internvl3_2b",
+    "category": "projector",
+    "observed_new_target": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "archived_torchao": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "internvl3_2b",
+    "category": "language_model",
+    "observed_new_target": [
+      196,
+      196,
+      1310195712,
+      1310195712
+    ],
+    "archived_torchao": [
+      196,
+      196,
+      1310195712,
+      1310195712
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "internvl3_2b",
+    "category": "lm_head",
+    "observed_new_target": [
+      1,
+      0,
+      232971264,
+      0
+    ],
+    "archived_torchao": [
+      1,
+      0,
+      232971264,
+      0
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "internvl3_2b",
+    "category": "other",
+    "observed_new_target": [
+      2,
+      2,
+      8650752,
+      8650752
+    ],
+    "archived_torchao": [
+      2,
+      2,
+      8650752,
+      8650752
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "category": "vision_encoder",
+    "observed_new_target": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "archived_torchao": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "category": "projector",
+    "observed_new_target": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "archived_torchao": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "category": "language_model",
+    "observed_new_target": [
+      196,
+      196,
+      6525288448,
+      6525288448
+    ],
+    "archived_torchao": [
+      196,
+      196,
+      6525288448,
+      6525288448
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "category": "lm_head",
+    "observed_new_target": [
+      1,
+      0,
+      544997376,
+      0
+    ],
+    "archived_torchao": [
+      1,
+      0,
+      544997376,
+      0
+    ],
+    "aggregate_match": true
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "category": "other",
+    "observed_new_target": [
+      162,
+      130,
+      674529280,
+      534446080
+    ],
+    "archived_torchao": [
+      162,
+      130,
+      674529280,
+      534446080
+    ],
+    "aggregate_match": true
+  }
+]

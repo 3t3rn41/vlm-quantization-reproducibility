@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "new_predictions": 9176,
+  "hqq_smoke_formal_pairs_verified": 12,
+  "bootstrap_replicates_per_cell": 10000,
+  "signal_budget_point_rows": 48,
+  "report": "hqq_full_report.html",
+  "formal_inference_loop_seconds": 2895.0615059146658,
+  "bf16_parity_pairs": 12,
+  "hqq_smoke_formal_max_abs_probability_difference": 0.0,
+  "all_bootstrap_invalid_replicates": 0,
+  "corrected_internvl_revision": "f6c7b60375759170fd49f5e9e298e2178485c5ba"
+}

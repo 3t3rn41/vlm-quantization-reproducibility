@@ -1,0 +1,134 @@
+[
+  {
+    "cell": "internvl3_2b__mmstar",
+    "budget": 0.2,
+    "k": 300,
+    "row_risk_sources": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "column_error_targets": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "captured_error_matrix": [
+      [
+        206,
+        193,
+        211
+      ],
+      [
+        185,
+        209,
+        197
+      ],
+      [
+        190,
+        181,
+        203
+      ]
+    ],
+    "status": "CPU point estimates; image-group intervals pending"
+  },
+  {
+    "cell": "internvl3_2b__ai2d",
+    "budget": 0.2,
+    "k": 618,
+    "row_risk_sources": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "column_error_targets": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "captured_error_matrix": [
+      [
+        376,
+        384,
+        433
+      ],
+      [
+        329,
+        399,
+        390
+      ],
+      [
+        335,
+        352,
+        412
+      ]
+    ],
+    "status": "CPU point estimates; image-group intervals pending"
+  },
+  {
+    "cell": "qwen2_5_vl_7b__mmstar",
+    "budget": 0.2,
+    "k": 300,
+    "row_risk_sources": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "column_error_targets": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "captured_error_matrix": [
+      [
+        180,
+        194,
+        196
+      ],
+      [
+        183,
+        199,
+        189
+      ],
+      [
+        172,
+        187,
+        188
+      ]
+    ],
+    "status": "CPU point estimates; image-group intervals pending"
+  },
+  {
+    "cell": "qwen2_5_vl_7b__ai2d",
+    "budget": 0.2,
+    "k": 618,
+    "row_risk_sources": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "column_error_targets": [
+      "BF16",
+      "TorchAO",
+      "HQQ"
+    ],
+    "captured_error_matrix": [
+      [
+        336,
+        356,
+        359
+      ],
+      [
+        320,
+        343,
+        336
+      ],
+      [
+        328,
+        348,
+        359
+      ]
+    ],
+    "status": "CPU point estimates; image-group intervals pending"
+  }
+]

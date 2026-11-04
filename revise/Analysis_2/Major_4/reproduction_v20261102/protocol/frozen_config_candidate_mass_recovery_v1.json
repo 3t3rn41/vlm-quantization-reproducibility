@@ -1,0 +1,64 @@
+{
+  "config_name": "vlm_eswa_candidate_mass_recovery_v1",
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_004",
+  "status": "frozen",
+  "source": "01_manifests plus frozen model/config paths",
+  "gt_blind": true,
+  "backend_matrix": [
+    {
+      "model": "internvl3_2b",
+      "dataset": "mmstar",
+      "backend": "bf16"
+    },
+    {
+      "model": "internvl3_2b",
+      "dataset": "mmstar",
+      "backend": "int4_g128"
+    },
+    {
+      "model": "internvl3_2b",
+      "dataset": "ai2d",
+      "backend": "bf16"
+    },
+    {
+      "model": "internvl3_2b",
+      "dataset": "ai2d",
+      "backend": "int4_g128"
+    },
+    {
+      "model": "qwen2_5_vl_7b",
+      "dataset": "mmstar",
+      "backend": "bf16"
+    },
+    {
+      "model": "qwen2_5_vl_7b",
+      "dataset": "mmstar",
+      "backend": "int4_g128"
+    },
+    {
+      "model": "qwen2_5_vl_7b",
+      "dataset": "ai2d",
+      "backend": "bf16"
+    },
+    {
+      "model": "qwen2_5_vl_7b",
+      "dataset": "ai2d",
+      "backend": "int4_g128"
+    }
+  ],
+  "sample_counts": {
+    "mmstar": 1500,
+    "ai2d": 3088,
+    "total_sample_backend_rows": 18352
+  },
+  "model_paths": "[OMITTED_LOCAL_PATH]",
+  "output_namespace": "[OMITTED_LOCAL_PATH]",
+  "original_namespace": "[OMITTED_LOCAL_PATH]",
+  "candidate_mass_definition": "exp(candidate_logsumexp - vocab_logsumexp)",
+  "candidate_logsumexp_definition": "logsumexp(candidate logits A/B/C/D)",
+  "no_probability_renormalization": true,
+  "exact_equivalence_required": true,
+  "bootstrap_computed": false,
+  "scientific_metrics_computed": false,
+  "GT_accessed": false
+}

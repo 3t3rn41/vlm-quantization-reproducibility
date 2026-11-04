@@ -1,0 +1,430 @@
+{
+  "GT_accessed": true,
+  "bootstrap_computed": false,
+  "cells": {
+    "internvl3_2b_ai2d": {
+      "dataset": "AI2D",
+      "full_clean": {
+        "int4_correct_samples": 2247,
+        "int4_incorrect_samples": 841,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 3088,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "full_clean",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.6984964835504397,
+            "bf16_int4_spearman": 0.8812670597723535,
+            "int4_aurc": 0.08741873111138983,
+            "int4_auroc": 0.8457959800542618,
+            "int4_recall_at_20": 0.47443519619500596,
+            "j20": 0.539227895392279,
+            "rbo_p090": 0.013256196337385553
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.6457481026369553,
+            "bf16_int4_spearman": 0.8391617383671914,
+            "int4_aurc": 0.08947110709631725,
+            "int4_auroc": 0.8385417576189577,
+            "int4_recall_at_20": 0.45659928656361476,
+            "j20": 0.3567508232711306,
+            "rbo_p090": 0.028474591873273423
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.6697305280581657,
+            "bf16_int4_spearman": 0.8591566247019481,
+            "int4_aurc": 0.0878878357003986,
+            "int4_auroc": 0.8444119177002816,
+            "int4_recall_at_20": 0.47443519619500596,
+            "j20": 0.41580756013745707,
+            "rbo_p090": 0.02555192728019213
+          }
+        }
+      },
+      "model": "internvl3_2b",
+      "n_full_clean": 3088,
+      "strict_unseen": {
+        "int4_correct_samples": 2025,
+        "int4_incorrect_samples": 763,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 2788,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "strict_unseen",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.6960741816917858,
+            "bf16_int4_spearman": 0.879842648886264,
+            "int4_aurc": 0.08827848143765772,
+            "int4_auroc": 0.8449942559422682,
+            "int4_recall_at_20": 0.47313237221494103,
+            "j20": 0.5371900826446281,
+            "rbo_p090": 0.015593491379325877
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.6429522458531661,
+            "bf16_int4_spearman": 0.8372807308222247,
+            "int4_aurc": 0.09034919853283933,
+            "int4_auroc": 0.8378221121952009,
+            "int4_recall_at_20": 0.4534731323722149,
+            "j20": 0.35108958837772397,
+            "rbo_p090": 0.027241497813009663
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.6667184912918196,
+            "bf16_int4_spearman": 0.8571401274996227,
+            "int4_aurc": 0.08871576498137133,
+            "int4_auroc": 0.8437943141918677,
+            "int4_recall_at_20": 0.4705111402359109,
+            "j20": 0.4002509410288582,
+            "rbo_p090": 0.032084040307356135
+          }
+        }
+      }
+    },
+    "internvl3_2b_mmstar": {
+      "dataset": "MMStar",
+      "full_clean": {
+        "int4_correct_samples": 796,
+        "int4_incorrect_samples": 704,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 1500,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "full_clean",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.601448608215674,
+            "bf16_int4_spearman": 0.7867128733299902,
+            "int4_aurc": 0.3019717181399736,
+            "int4_auroc": 0.6935993889904066,
+            "int4_recall_at_20": 0.2869318181818182,
+            "j20": 0.4492753623188406,
+            "rbo_p090": 0.06442265755434758
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.4744306007520138,
+            "bf16_int4_spearman": 0.6487840682847468,
+            "int4_aurc": 0.3045357781354965,
+            "int4_auroc": 0.6909360367176793,
+            "int4_recall_at_20": 0.2869318181818182,
+            "j20": 0.23203285420944558,
+            "rbo_p090": 0.03571691566618983
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.5342436995365785,
+            "bf16_int4_spearman": 0.715732312760263,
+            "int4_aurc": 0.3019276817286315,
+            "int4_auroc": 0.6957577304134308,
+            "int4_recall_at_20": 0.296875,
+            "j20": 0.3422818791946309,
+            "rbo_p090": 0.038363822932990815
+          }
+        }
+      },
+      "model": "internvl3_2b",
+      "n_full_clean": 1500,
+      "strict_unseen": {
+        "int4_correct_samples": 596,
+        "int4_incorrect_samples": 604,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 1200,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "strict_unseen",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.5633633257984448,
+            "bf16_int4_spearman": 0.750357631826449,
+            "int4_aurc": 0.3552875499581732,
+            "int4_auroc": 0.6664601760078226,
+            "int4_recall_at_20": 0.2764900662251656,
+            "j20": 0.43283582089552236,
+            "rbo_p090": 0.06442306656171644
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.4197042407887534,
+            "bf16_int4_spearman": 0.5845936149063276,
+            "int4_aurc": 0.3547056373301398,
+            "int4_auroc": 0.6703311813858394,
+            "int4_recall_at_20": 0.2781456953642384,
+            "j20": 0.18518518518518517,
+            "rbo_p090": 0.05892245967685876
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.4892910838630716,
+            "bf16_int4_spearman": 0.6670945426569038,
+            "int4_aurc": 0.35312773257933133,
+            "int4_auroc": 0.673335481576959,
+            "int4_recall_at_20": 0.28311258278145696,
+            "j20": 0.30434782608695654,
+            "rbo_p090": 0.03931314753804541
+          }
+        }
+      }
+    },
+    "qwen2_5_vl_7b_ai2d": {
+      "dataset": "AI2D",
+      "full_clean": {
+        "int4_correct_samples": 2522,
+        "int4_incorrect_samples": 566,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 3088,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "full_clean",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.838945393026238,
+            "bf16_int4_spearman": 0.9663988663835359,
+            "int4_aurc": 0.04064105560847565,
+            "int4_auroc": 0.8884694546646752,
+            "int4_recall_at_20": 0.6095406360424028,
+            "j20": 0.6931506849315069,
+            "rbo_p090": 0.2298691394032521
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.8196609999986072,
+            "bf16_int4_spearman": 0.9583155567955483,
+            "int4_aurc": 0.04101135187147505,
+            "int4_auroc": 0.8864981099189325,
+            "int4_recall_at_20": 0.6060070671378092,
+            "j20": 0.6458055925432756,
+            "rbo_p090": 0.1744630531025496
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.8275852012299576,
+            "bf16_int4_spearman": 0.9618139746400688,
+            "int4_aurc": 0.04067217524819806,
+            "int4_auroc": 0.8883310962470191,
+            "int4_recall_at_20": 0.6060070671378092,
+            "j20": 0.6657681940700808,
+            "rbo_p090": 0.33154306225124125
+          }
+        }
+      },
+      "model": "qwen2_5_vl_7b",
+      "n_full_clean": 3088,
+      "strict_unseen": {
+        "int4_correct_samples": 2276,
+        "int4_incorrect_samples": 512,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 2788,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "strict_unseen",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.8382967271910948,
+            "bf16_int4_spearman": 0.9660585521346812,
+            "int4_aurc": 0.04111520334820862,
+            "int4_auroc": 0.8874254276966169,
+            "int4_recall_at_20": 0.609375,
+            "j20": 0.6883509833585476,
+            "rbo_p090": 0.2664072438702457
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.8188049707146607,
+            "bf16_int4_spearman": 0.9578366888784262,
+            "int4_aurc": 0.04141347172645241,
+            "int4_auroc": 0.8858327211939807,
+            "int4_recall_at_20": 0.607421875,
+            "j20": 0.6411764705882353,
+            "rbo_p090": 0.1760763900116829
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.8267837223590332,
+            "bf16_int4_spearman": 0.9613930493011721,
+            "int4_aurc": 0.041109810476995655,
+            "int4_auroc": 0.8874661893123902,
+            "int4_recall_at_20": 0.609375,
+            "j20": 0.6631892697466468,
+            "rbo_p090": 0.35780360378196147
+          }
+        }
+      }
+    },
+    "qwen2_5_vl_7b_mmstar": {
+      "dataset": "MMStar",
+      "full_clean": {
+        "int4_correct_samples": 894,
+        "int4_incorrect_samples": 606,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 1500,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "full_clean",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.8227703356922784,
+            "bf16_int4_spearman": 0.9522284194729844,
+            "int4_aurc": 0.21835609852960253,
+            "int4_auroc": 0.7420629646857303,
+            "int4_recall_at_20": 0.33003300330033003,
+            "j20": 0.6949152542372882,
+            "rbo_p090": 0.12789734417296877
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.7443869731275288,
+            "bf16_int4_spearman": 0.9002495980510282,
+            "int4_aurc": 0.22353257025592788,
+            "int4_auroc": 0.7272474730694546,
+            "int4_recall_at_20": 0.2986798679867987,
+            "j20": 0.431980906921241,
+            "rbo_p090": 0.0019371760767210476
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.7795352006460867,
+            "bf16_int4_spearman": 0.9254143055493829,
+            "int4_aurc": 0.22046145488804042,
+            "int4_auroc": 0.7365088857879076,
+            "int4_recall_at_20": 0.32838283828382836,
+            "j20": 0.5306122448979592,
+            "rbo_p090": 0.13379543259893933
+          }
+        }
+      },
+      "model": "qwen2_5_vl_7b",
+      "n_full_clean": 1500,
+      "strict_unseen": {
+        "int4_correct_samples": 711,
+        "int4_incorrect_samples": 489,
+        "metric_validity": {
+          "int4_aurc_defined_for_all_signals": true,
+          "int4_auroc_defined_for_all_signals": true,
+          "int4_recall_at_20_defined_for_all_signals": true
+        },
+        "n": 1200,
+        "ordering_equivalence_audit": {
+          "neg_log_pmax_formal_signal": false,
+          "risk_max_vs_neg_log_pmax": {
+            "bf16": true,
+            "int4": true
+          }
+        },
+        "population": "strict_unseen",
+        "signals": {
+          "risk_entropy": {
+            "bf16_int4_kendall_tau_b": 0.8086760031628859,
+            "bf16_int4_spearman": 0.9444054468232795,
+            "int4_aurc": 0.2197852673999158,
+            "int4_auroc": 0.7442339054127514,
+            "int4_recall_at_20": 0.3394683026584867,
+            "j20": 0.6551724137931034,
+            "rbo_p090": 0.14621654774303058
+          },
+          "risk_margin": {
+            "bf16_int4_kendall_tau_b": 0.7195951792293543,
+            "bf16_int4_spearman": 0.8812625573561708,
+            "int4_aurc": 0.22632348496506988,
+            "int4_auroc": 0.7249503133637637,
+            "int4_recall_at_20": 0.29243353783231085,
+            "j20": 0.437125748502994,
+            "rbo_p090": 0.0032161682382839153
+          },
+          "risk_max": {
+            "bf16_int4_kendall_tau_b": 0.7599111701149743,
+            "bf16_int4_spearman": 0.9123568606600948,
+            "int4_aurc": 0.22256347199891016,
+            "int4_auroc": 0.7368017625453364,
+            "int4_recall_at_20": 0.32515337423312884,
+            "j20": 0.5533980582524272,
+            "rbo_p090": 0.162112967203708
+          }
+        }
+      }
+    }
+  },
+  "correction": {
+    "canonical_risk_max_source": "joined_row.risk_primary",
+    "old_artifact": "archive://original/artifacts/eswa_revision_v1/06_risk_ablation/079_risk_signal_ablation_v1_3.json",
+    "old_artifact_status": "SUPERSEDED_READ_ONLY",
+    "risk_max_rule": "use joined_row.risk_primary directly; do not normalize candidate_probabilities for risk_max",
+    "root_cause": "unintended renormalization of serialized candidate probabilities when recomputing risk_max"
+  },
+  "metrics_computed": true,
+  "operational_queue_metrics_computed": false,
+  "populations": {
+    "full_clean": "all joined canonical rows",
+    "strict_unseen": "provenance_status == strict_unseen"
+  },
+  "protocol_version": "v1.3",
+  "rank_rules": {
+    "kendall": "tau-b",
+    "rank_tie_break": "(-risk, canonical source_row)",
+    "rbo": "RBO_EXT, p=0.90",
+    "spearman": "average ranks"
+  },
+  "recall_at_20_definition": "INT4 error recall among the top ceil(0.20*n) rows ranked by the signal-specific INT4 risk",
+  "signals": {
+    "risk_entropy": "normalized 4-way entropy",
+    "risk_margin": "1 - (p1 - p2)",
+    "risk_max": "joined row risk_primary; canonical 1 - max(raw serialized candidate_probabilities)"
+  },
+  "stage": "079_RISK_SIGNAL_ABLATION_V1_3_CORRECTED",
+  "status": "PASS"
+}

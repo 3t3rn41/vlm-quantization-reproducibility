@@ -1,0 +1,59 @@
+{
+  "schema": "vlm.eswa_revision_v1.frozen_config.v1_3",
+  "protocol_version": "v1.3",
+  "freeze_status": "active_after_amendment_003",
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_003",
+  "supersedes_when_activated": "00_protocol/frozen_config_v1_2.json",
+  "activation_condition": "Amendment 003 tie audit and CPU-only 077 v1.3 recomputation complete; v1.2 remains preserved read-only.",
+  "activation_evidence": {
+    "GT_accessed": false,
+    "GT_join_started": false,
+    "inference_rerun": false,
+    "hashes_used": false
+  },
+  "scope": "rank-metric analysis of canonical R1/R2 prediction caches; inference behavior unchanged",
+  "execution_candidate": {
+    "inference_protocol": "unchanged from frozen_config_v1_2",
+    "torch_set_num_threads": 8,
+    "internvl_normalization": "vectorized/batched normalization",
+    "batch_size": 1,
+    "dtype": "bfloat16",
+    "sampling": false,
+    "model_eval": true,
+    "torch_inference_mode": true,
+    "use_flash_attn": false,
+    "backend_semantics_unchanged": true
+  },
+  "rank_metrics": {
+    "risk_primary": "1 - max(candidate_probabilities)",
+    "spearman": "average ranks; ties are not broken by sample_id or source_row",
+    "kendall": "Kendall tau-b, tie-corrected",
+    "kendall_tau_a": "diagnostic_only",
+    "queue_budgets": "ceil(q*n), q in {0.05, 0.10, 0.20, 0.30}",
+    "queue_primary_budget": 0.2,
+    "ranked_list_tie_break": "risk descending, then canonical source_row ascending",
+    "rbo_variant": "RBO_EXT",
+    "rbo_p_primary": 0.9,
+    "rbo_p_sensitivity": [
+      0.8,
+      0.95
+    ],
+    "answer_flip_rate": "normalized_prediction inequality; no gold required"
+  },
+  "invariants": {
+    "canonical_input": "predictions.jsonl only",
+    "traversal_cache_excluded": true,
+    "GT_accessed": false,
+    "GT_join_started": false,
+    "outcome_fields_read": false,
+    "scientific_metrics_before_077": false,
+    "hashes_used": false
+  },
+  "required_pairing_audit": [
+    "sample_id set and canonical order",
+    "source_row alignment",
+    "manifest identity",
+    "model revision",
+    "risk tie counts and boundary tie sizes"
+  ]
+}

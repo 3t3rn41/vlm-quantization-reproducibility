@@ -1,0 +1,46 @@
+{
+  "schema": "vlm.eswa_revision_v1.protocol_amendment.v1",
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_001",
+  "protocol_version_from": "v1.0",
+  "protocol_version_to": "v1.1",
+  "stage_detected": "072_read_only_engineering_audit",
+  "reason": "The original frozen_config used an over-generalized image_preprocessing description that accurately described the InternVL path but did not explicitly encode the frozen native Qwen2.5-VL processor path.",
+  "scientific_analysis_seen": false,
+  "ground_truth_accessed": false,
+  "scientific_metrics_computed": false,
+  "inference_behavior_changed": false,
+  "dataset_changed": false,
+  "model_changed": false,
+  "backend_changed": false,
+  "prompt_changed": false,
+  "candidate_adapter_changed": false,
+  "analysis_plan_changed": false,
+  "revision_type": "metadata clarification of pre-existing model-specific execution paths",
+  "core_statement": "This amendment changes documentation only; it does not change the execution behavior used by 072 or planned for 073.",
+  "old_artifacts_preserved_read_only": true,
+  "supersedes": "00_protocol/frozen_config.json",
+  "source_artifacts_070_071_unchanged": true,
+  "cross_model_preprocessing_equivalence": false,
+  "within_model_backend_preprocessing_equivalence_required": true,
+  "evidence": {
+    "072_artifacts": "02_smoke/*",
+    "internvl_row0_observation": "13 dynamic 448x448 blocks including thumbnail; prompt length 3430",
+    "qwen_row0_processor_probe": "image_grid_thw=[1,28,36], pixel_values=[1008,1176], input_ids=[1,347]",
+    "qwen_processor_config": {
+      "min_pixels": 3136,
+      "max_pixels": 12845056,
+      "patch_size": 14,
+      "merge_size": 2,
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "primary": {
+    "seed": 20260913,
+    "replicates": 10000,
+    "implementation": "083_compute_bootstrap.py; RNG reinitialized per bootstrap_population"
+  },
+  "extension_20260923": {
+    "seed": 20260923,
+    "cross_eval": "seed+ci*1000+pi*100",
+    "tie": "seed+10000+ci*100000+pi*10000+qi"
+  },
+  "posthoc": {
+    "seed": 20261002,
+    "replicates": 10000,
+    "substream": "SeedSequence([base_seed,cell_index,unit_index])",
+    "cells": [
+      "internvl3_2b__mmstar",
+      "internvl3_2b__ai2d",
+      "qwen2_5_vl_7b__mmstar",
+      "qwen2_5_vl_7b__ai2d"
+    ],
+    "unit": {
+      "row": 0,
+      "image": 1
+    }
+  },
+  "disclosure": "Internal implementation record. Historical shared README uses author-provided seed; final public disclosure pending."
+}

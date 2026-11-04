@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "cell": "internvl3_2b__mmstar",
+      "replicates": 10000,
+      "archive_checks": 33,
+      "elapsed_seconds": 7.805488999991212
+    },
+    {
+      "cell": "internvl3_2b__ai2d",
+      "replicates": 10000,
+      "archive_checks": 33,
+      "elapsed_seconds": 12.13474030001089
+    },
+    {
+      "cell": "qwen2_5_vl_7b__mmstar",
+      "replicates": 10000,
+      "archive_checks": 33,
+      "elapsed_seconds": 7.829970099963248
+    },
+    {
+      "cell": "qwen2_5_vl_7b__ai2d",
+      "replicates": 10000,
+      "archive_checks": 33,
+      "elapsed_seconds": 11.42152370000258
+    }
+  ]
+}

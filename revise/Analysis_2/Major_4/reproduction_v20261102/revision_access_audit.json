@@ -1,0 +1,17 @@
+{
+  "Qwen_model_config": "retrieved at recorded revision",
+  "Qwen_preprocessor_config": "retrieved at recorded revision",
+  "InternVL_config_requests": [
+    {
+      "repo": "OpenGVLab/InternVL3-2B-Instruct",
+      "revision": "f6c7b60375759170fd49f5e9e298e2178485cba5",
+      "result": "HTTP 404"
+    },
+    {
+      "repo": "OpenGVLab/InternVL3-2B",
+      "revision": "f6c7b60375759170fd49f5e9e298e2178485cba5",
+      "result": "HTTP 404"
+    }
+  ],
+  "action": "Recover original local model snapshot and its resolved revision/repo metadata before claiming independently accessible inference reproduction."
+}

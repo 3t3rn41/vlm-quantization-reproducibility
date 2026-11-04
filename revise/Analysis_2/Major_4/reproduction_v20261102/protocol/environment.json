@@ -1,0 +1,54 @@
+{
+  "schema": "vlm.eswa_revision_v1.environment.v1",
+  "freeze_status": "frozen_for_g0_review",
+  "environment_probe_scope": "Read-only environment metadata; no model load, inference, ground truth, or scientific metrics.",
+  "hardware": {
+    "os": "Linux-5.15.0-94-generic-x86_64-with-glibc2.39",
+    "gpu": "NVIDIA GeForce RTX 4090 D",
+    "gpu_vram_bytes": 25250627584,
+    "nvidia_smi_vram_mib": 24564,
+    "driver": "580.76.05",
+    "cuda_runtime": "12.4"
+  },
+  "software": {
+    "python": "3.10.12",
+    "pytorch": "2.5.1+cu124",
+    "torchao": "0.9.0",
+    "transformers": "4.51.3",
+    "accelerate": "1.6.0",
+    "pillow": "11.2.1",
+    "safetensors": "0.5.3",
+    "numpy": "2.2.4",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1"
+  },
+  "runtime_flags": {
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "bfloat16_supported": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": true,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "attention_implementation": "model default eager-compatible path",
+    "use_flash_attn": false,
+    "device_map": {
+      "BF16": "cuda:0",
+      "INT4": "cuda"
+    },
+    "dtype": "bfloat16",
+    "batch_size": 1
+  },
+  "provenance": {
+    "offline_model_and_dataset_access": true,
+    "network_model_downloads": false
+  },
+  "gate_summary": {
+    "g0_freeze_ready": true,
+    "source_artifacts_070_071_unchanged": true,
+    "gt_accessed": false,
+    "scientific_inference_started": false,
+    "scientific_metrics_computed": false
+  },
+  "sanitization": "Host machine identifier, host-specific paths, and credentials are excluded."
+}

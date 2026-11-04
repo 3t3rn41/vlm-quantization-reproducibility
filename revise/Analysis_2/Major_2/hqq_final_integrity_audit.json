@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "formal_prediction_count": 9176,
+  "unique_ids_per_cell": true,
+  "manifest_prompt_probability_checks": "PASS in analyze_hqq.py",
+  "smoke_formal_repeat_checks": [
+    {
+      "cell": "internvl3_2b__mmstar",
+      "sample_id": "0f38fd3c97843f85d9f611a8",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "internvl3_2b__mmstar",
+      "sample_id": "30466e5ee2af4ef7b1c0a745",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "internvl3_2b__mmstar",
+      "sample_id": "79246e8287a5137fad4a8044",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "internvl3_2b__ai2d",
+      "sample_id": "ai2d-source-row-0000",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "internvl3_2b__ai2d",
+      "sample_id": "ai2d-source-row-0001",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "internvl3_2b__ai2d",
+      "sample_id": "e38069ab67cb0e94045e6b0c",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__mmstar",
+      "sample_id": "0f38fd3c97843f85d9f611a8",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__mmstar",
+      "sample_id": "30466e5ee2af4ef7b1c0a745",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__mmstar",
+      "sample_id": "79246e8287a5137fad4a8044",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__ai2d",
+      "sample_id": "ai2d-source-row-0000",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__ai2d",
+      "sample_id": "ai2d-source-row-0001",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    },
+    {
+      "cell": "qwen2_5_vl_7b__ai2d",
+      "sample_id": "e38069ab67cb0e94045e6b0c",
+      "hqq_smoke_vs_formal_max_abs_prob_diff": 0.0
+    }
+  ],
+  "all_bootstrap_invalid_replicates": 0,
+  "gpu_inference_completed": true
+}

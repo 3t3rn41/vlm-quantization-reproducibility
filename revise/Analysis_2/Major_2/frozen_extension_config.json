@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "backend": "HQQ 0.2.8.post1 PYTORCH_FORWARD",
+  "nbits": 4,
+  "group_size": 128,
+  "axis": 1,
+  "quant_zero": false,
+  "quant_scale": false,
+  "activation_dtype": "bfloat16",
+  "models": [
+    "internvl3_2b",
+    "qwen2_5_vl_7b"
+  ],
+  "datasets": {
+    "mmstar": 1500,
+    "ai2d": 3088
+  },
+  "seed": 20261102,
+  "target_modules": "all Linear with input dimension divisible by 128 except lm_head; require counts 294/326",
+  "preflight": "6 BF16 parity records per model, exact prediction and token count, probability atol1e-6; 6 HQQ smoke records per model, finite logits and probability contract",
+  "protocol": "frozen prompt_v3, existing 084.make_inputs and 073.quantize_candidates; sample count budget; HQQ errors as shared target for new comparison",
+  "status": "SMOKE_RUNNING",
+  "gpu_authorization": "user request 2026-11-02"
+}

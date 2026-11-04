@@ -1,0 +1,7 @@
+{
+  "recorded_revision": "f6c7b60375759170fd49f5e9e298e2178485cba5",
+  "server_model_directory_revision": "f6c7b60375759170fd49f5e9e298e2178485c5ba",
+  "corrected_revision_config_url": "https://huggingface.co/OpenGVLab/InternVL3-2B-Instruct/resolve/f6c7b60375759170fd49f5e9e298e2178485c5ba/config.json",
+  "corrected_url_access": "PASS",
+  "basis": "existing server model directory plus accessible exact revision config; no weight hashing performed"
+}

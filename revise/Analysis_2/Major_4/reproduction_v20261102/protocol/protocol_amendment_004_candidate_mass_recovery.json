@@ -1,0 +1,77 @@
+{
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_004",
+  "title": "Candidate-Mass Field Recovery",
+  "status": "authorized",
+  "trigger": "080 implementation audit found that the pre-registered candidate_mass, candidate_logsumexp, and vocab_logsumexp fields were absent from all canonical inference caches.",
+  "scope": "GT-blind recovery of the pre-registered prediction-side fields for all 8 formal backend cells and all 18,352 full-clean samples.",
+  "not_a_new_metric": true,
+  "input_manifests": [
+    "01_manifests/mmstar_full_clean.jsonl",
+    "01_manifests/ai2d_full_clean.jsonl"
+  ],
+  "forbidden_inputs": [
+    "075 joined predictions_with_gt.jsonl",
+    "ground_truth",
+    "correctness",
+    "078 primary metrics",
+    "079 risk-signal metrics"
+  ],
+  "recovery_fields": [
+    "sample_id",
+    "source_row",
+    "candidate_logit_A",
+    "candidate_logit_B",
+    "candidate_logit_C",
+    "candidate_logit_D",
+    "candidate_logsumexp",
+    "vocab_logsumexp",
+    "candidate_mass",
+    "argmax_candidate_answer"
+  ],
+  "definitions": {
+    "candidate_logsumexp": "logsumexp(candidate logits A/B/C/D)",
+    "candidate_mass": "exp(candidate_logsumexp - vocab_logsumexp)"
+  },
+  "backend_cells": [
+    "internvl3_2b/mmstar/bf16",
+    "internvl3_2b/mmstar/int4_g128",
+    "internvl3_2b/ai2d/bf16",
+    "internvl3_2b/ai2d/int4_g128",
+    "qwen2_5_vl_7b/mmstar/bf16",
+    "qwen2_5_vl_7b/mmstar/int4_g128",
+    "qwen2_5_vl_7b/ai2d/bf16",
+    "qwen2_5_vl_7b/ai2d/int4_g128"
+  ],
+  "output_namespace": "08_candidate_mass_recovery",
+  "original_namespace_read_only": "02_full_inference",
+  "execution_constraints": {
+    "internvl_torch_set_num_threads": 8,
+    "internvl_normalization": "vectorized/batched normalization",
+    "internvl_dynamic_preprocessing": "native frozen v1.3 path",
+    "qwen_processor": "Qwen2_5_VLProcessor",
+    "qwen_candidate_adapter": "vlm_qwen_candidate_adapter_v2",
+    "model_revision_unchanged": true,
+    "dtype_unchanged": true,
+    "batch_size": 1,
+    "prompt_unchanged": true,
+    "processor_unchanged": true,
+    "quantization_unchanged": true
+  },
+  "gates": {
+    "source_row_exact": true,
+    "candidate_logits_A_to_D_exact": true,
+    "argmax_candidate_exact": true,
+    "candidate_mass_finite": true,
+    "candidate_mass_range": "0 <= candidate_mass <= 1",
+    "candidate_logsumexp_internal_consistency": true,
+    "candidate_mass_internal_consistency": true,
+    "gt_accessed": false,
+    "bootstrap_computed": false
+  },
+  "prohibitions": [
+    "do not overwrite 02_full_inference",
+    "do not rerun 080 point metrics before recovery is VALID",
+    "do not run 081/082/083/084/085",
+    "do not compute hashes"
+  ]
+}

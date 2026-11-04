@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+*_regenerated.json
+revise/CPU_backend_audit_20261103/regenerated/
+revise/CPU_strengthening_20261103/*config/
+
+revise/Analysis_2/Major_4/reproduction_v20261102/artifacts/eswa_revision_v1/1[34]_*/

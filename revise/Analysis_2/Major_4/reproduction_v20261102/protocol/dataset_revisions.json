@@ -1,0 +1,19 @@
+{
+  "protocol": "VLM-ESWA-REVISION-R0",
+  "outcome_blind": true,
+  "labels_written_to_inference_manifest": false,
+  "datasets": {
+    "MMStar": {
+      "source": "local canonical MMStar parquet",
+      "revision": "bc98d668301da7b14f648724866e57302778ab27",
+      "split": "val",
+      "rows": 1500
+    },
+    "AI2D": {
+      "source": "local canonical HuggingFace parquet shards",
+      "revision": "c83a9b9692933aff8349157c88a413df9d02c4e5",
+      "split": "test",
+      "rows": 3088
+    }
+  }
+}

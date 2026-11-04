@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "status": "PARTIAL_TOKEN_SPLIT_MISSING",
+  "analysis_group": "Analysis_2",
+  "comment": "Minor_3",
+  "title": "R2次要意见3：计时输入明细",
+  "scope": "local implementation; main submitted DOCX unchanged",
+  "sources": [
+    "E:\\论文\\multimodal-research\\VLM_FINAL\\reproducibility\\vlm_neurocomputing_reproducibility_20260923\\scripts\\pipeline\\084_latency_memory.py",
+    "E:\\论文\\multimodal-research\\VLM\\revision_eswa_v1\\artifacts\\eswa_revision_v1\\02_smoke\\smoke_ids.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "date": "2026-11-03",
+  "gpu_inference": false,
+  "cells": 4,
+  "replicates_per_cell": 10000,
+  "matrix_rows": 432,
+  "backend_contrast_rows": 192,
+  "risk_source_contrast_rows": 432,
+  "composition_rows": 8,
+  "interval_estimands": 3872,
+  "invalid_replicates": 0,
+  "archived_reproduction_checks_passed": 132,
+  "independent_expanded_occurrence_cases": 48,
+  "primary_eight_intervals_include_zero": true,
+  "design": "post-hoc; pointwise 95%; unadjusted multiplicity",
+  "report": "audit_report.html",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "recorded in formal/analysis_plan.json"
+  }
+}

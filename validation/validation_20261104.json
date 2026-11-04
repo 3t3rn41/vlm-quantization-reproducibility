@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-04",
+  "hardware": "NVIDIA GeForce RTX 4090 D",
+  "new_gpu_forward_smoke": {
+    "torchao_paths": 4,
+    "samples_per_path": 50,
+    "total_forward_samples": 200,
+    "all_status": "PASS",
+    "parser_failures": 0,
+    "nonfinite_logits": 0,
+    "network_requests": 0,
+    "hqq_models": {
+      "internvl3_2b": {
+        "samples": 6,
+        "quantized_modules": 294,
+        "bf16_parity_max_probability_difference": 0.0
+      },
+      "qwen2_5_vl_7b": {
+        "samples": 6,
+        "quantized_modules": 326,
+        "bf16_parity_max_probability_difference": 0.0
+      }
+    }
+  },
+  "historical_formal_predictions_vs_released_caches": {
+    "status": "PASS",
+    "bf16_and_torchao_records": 18352,
+    "hqq_records": 9176,
+    "total_records": 27528,
+    "max_candidate_probability_difference": 0.0,
+    "torchao_errors": [
+      704,
+      841,
+      606,
+      566
+    ],
+    "hqq_errors": [
+      715,
+      880,
+      604,
+      570
+    ]
+  },
+  "manuscript_tables_20261104": {
+    "status": "PASS",
+    "tables": 7,
+    "data_rows": 48,
+    "numeric_values_checked": 368,
+    "archived_row_interval_endpoints": 8,
+    "archived_row_interval_scope": "preserved primary interval display; independent regeneration not established"
+  },
+  "supplement_tables_20261104": {
+    "status": "PASS",
+    "tables": 29,
+    "data_rows": 193,
+    "numeric_values_checked": 1218,
+    "archived_interval_endpoints_preserved": 80,
+    "qualitative_table": 18
+  },
+  "fresh_full_gpu_forward_20261104": {
+    "status": "PASS",
+    "jobs": 10,
+    "original_bf16_torchao_records": 18352,
+    "hqq_records": 9176,
+    "total_records": 27528,
+    "max_candidate_probability_difference": 0.0,
+    "elapsed_hours": 3.532,
+    "details": "validation/full_forward_20261104.json"
+  },
+  "scope": "Fresh complete GPU forward inference, independent per-input cache comparison, CPU analyses, manuscript and supplement tables."
+}

@@ -1,0 +1,227 @@
+{
+  "GT_accessed": false,
+  "GT_required_for_metric": false,
+  "bootstrap_computed": false,
+  "canonical_references": {
+    "077": "archive://original/artifacts/eswa_revision_v1/04_noise_floor/077_noise_floor_v1_3.json",
+    "079_corrected": "archive://original/artifacts/eswa_revision_v1/06_risk_ablation/079_risk_signal_ablation_v1_3_corrected.json"
+  },
+  "cells": {
+    "internvl3_2b_ai2d": {
+      "dataset": "AI2D",
+      "full_clean": {
+        "RBO": {
+          "p=0.80": 0.007792105780367525,
+          "p=0.90": 0.02555192728019213,
+          "p=0.95": 0.05797453661258518
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 3088,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "full_clean",
+        "provenance_population": "full_clean",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      },
+      "join_audit_status": "PASS",
+      "model": "internvl3_2b",
+      "n_full_clean": 3088,
+      "strict_unseen": {
+        "RBO": {
+          "p=0.80": 0.010653244757857939,
+          "p=0.90": 0.032084040307356135,
+          "p=0.95": 0.06913320849743541
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 2788,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "strict_unseen",
+        "provenance_population": "strict_unseen",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      }
+    },
+    "internvl3_2b_mmstar": {
+      "dataset": "MMStar",
+      "full_clean": {
+        "RBO": {
+          "p=0.80": 0.009963700150495991,
+          "p=0.90": 0.038363822932990815,
+          "p=0.95": 0.08295304897045404
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 1500,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "full_clean",
+        "provenance_population": "full_clean",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      },
+      "join_audit_status": "PASS",
+      "model": "internvl3_2b",
+      "n_full_clean": 1500,
+      "strict_unseen": {
+        "RBO": {
+          "p=0.80": 0.010072633973200119,
+          "p=0.90": 0.03931314753804541,
+          "p=0.95": 0.08531404562907344
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 1200,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "strict_unseen",
+        "provenance_population": "strict_unseen",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      }
+    },
+    "qwen2_5_vl_7b_ai2d": {
+      "dataset": "AI2D",
+      "full_clean": {
+        "RBO": {
+          "p=0.80": 0.4210430601062239,
+          "p=0.90": 0.33154306225124125,
+          "p=0.95": 0.31783368167207415
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 3088,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "full_clean",
+        "provenance_population": "full_clean",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      },
+      "join_audit_status": "PASS",
+      "model": "qwen2_5_vl_7b",
+      "n_full_clean": 3088,
+      "strict_unseen": {
+        "RBO": {
+          "p=0.80": 0.43447892996286336,
+          "p=0.90": 0.35780360378196147,
+          "p=0.95": 0.34943650432988055
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 2788,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "strict_unseen",
+        "provenance_population": "strict_unseen",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      }
+    },
+    "qwen2_5_vl_7b_mmstar": {
+      "dataset": "MMStar",
+      "full_clean": {
+        "RBO": {
+          "p=0.80": 0.07031966280549586,
+          "p=0.90": 0.13379543259893933,
+          "p=0.95": 0.21986635268827628
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 1500,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "full_clean",
+        "provenance_population": "full_clean",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      },
+      "join_audit_status": "PASS",
+      "model": "qwen2_5_vl_7b",
+      "n_full_clean": 1500,
+      "strict_unseen": {
+        "RBO": {
+          "p=0.80": 0.10073597761057015,
+          "p=0.90": 0.162112967203708,
+          "p=0.95": 0.24427988919002286
+        },
+        "bf16_int4_same_id_set": true,
+        "bf16_int4_same_source_row_alignment": true,
+        "ground_truth_read": false,
+        "n": 1200,
+        "outcome_conditioned_analysis": false,
+        "p080_finite": true,
+        "p090_finite": true,
+        "p095_finite": true,
+        "population": "strict_unseen",
+        "provenance_population": "strict_unseen",
+        "ranking_tie_break": "(-risk, canonical source_row)",
+        "rbo_variant": "RBO_EXT",
+        "risk_source": "canonical joined_row.risk_primary",
+        "sample_id_unique": true,
+        "source_row_unique": true
+      }
+    }
+  },
+  "ground_truth_read": false,
+  "outcome_conditioned_analysis": false,
+  "persistence": {
+    "primary": 0.9,
+    "sensitivity": [
+      0.8,
+      0.95
+    ]
+  },
+  "protocol_version": "v1.3",
+  "ranking_rule": "(-risk, canonical source_row)",
+  "rbo_variant": "RBO_EXT",
+  "risk_definition": "risk_max = canonical joined_row.risk_primary = 1 - pmax",
+  "scientific_metrics_computed": true,
+  "stage": "082_RBO_V1_3",
+  "status": "PASS"
+}

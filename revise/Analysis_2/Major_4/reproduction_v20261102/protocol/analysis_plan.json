@@ -1,0 +1,93 @@
+{
+  "schema": "vlm.eswa_revision_v1.analysis_plan.v1",
+  "freeze_status": "frozen_for_g0_review",
+  "populations": {
+    "A_full_clean": {
+      "definition": "All rows in the full-clean MMStar and AI2D manifests.",
+      "manifest_scope": [
+        "mmstar_full_clean",
+        "ai2d_full_clean"
+      ]
+    },
+    "B_strict_unseen": {
+      "definition": "Rows marked strict_unseen in the provenance registry.",
+      "manifest_scope": [
+        "mmstar_full_clean",
+        "ai2d_full_clean"
+      ]
+    }
+  },
+  "metrics": {
+    "accuracy_and_change": [
+      "Accuracy",
+      "delta",
+      "Flip"
+    ],
+    "rank_agreement": [
+      "Spearman",
+      "Kendall",
+      "J5",
+      "J10",
+      "J20",
+      "J30"
+    ],
+    "selective_prediction": [
+      "AUROC",
+      "AURC",
+      "Recall@20"
+    ],
+    "queue_and_overlap": [
+      "queue_replacement",
+      "adjusted_Jaccard",
+      "RBO"
+    ],
+    "probability_and_calibration": [
+      "candidate_mass",
+      "noise_floor"
+    ],
+    "engineering": [
+      "latency",
+      "memory",
+      "coverage_audit"
+    ]
+  },
+  "execution_order": [
+    "072_smoke",
+    "073_full_inference",
+    "074_pair_audit",
+    "076_risk_metrics",
+    "077_queue_analysis",
+    "075_ground_truth_metrics",
+    "078_085_sensitivity_and_reporting"
+  ],
+  "gate_dependencies": {
+    "G0_before": [
+      "072_smoke",
+      "073_full_inference"
+    ],
+    "G1_before": [
+      "072_smoke",
+      "073_full_inference"
+    ],
+    "G2_before": [
+      "075_ground_truth_metrics"
+    ],
+    "G3_before": [
+      "075_ground_truth_metrics"
+    ],
+    "G6_before": [
+      "paper_rewrite"
+    ]
+  },
+  "decision_rules": {
+    "primary_risk": "1-pmax",
+    "selection_quantile": 0.2,
+    "strict_unseen_is_secondary_population": true,
+    "no_ground_truth_or_scientific_metrics_before_authorized_gate": true
+  },
+  "g0_freeze_ready": true,
+  "source_artifacts_070_071_unchanged": true,
+  "gt_accessed": false,
+  "scientific_inference_started": false,
+  "scientific_metrics_computed": false
+}

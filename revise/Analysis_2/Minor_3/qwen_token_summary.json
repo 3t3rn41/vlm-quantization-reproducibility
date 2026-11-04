@@ -1,0 +1,32 @@
+{
+  "processed_height": {
+    "min": 196,
+    "median": 392.0,
+    "p95": 700.0,
+    "max": 812
+  },
+  "processed_width": {
+    "min": 224,
+    "median": 504.0,
+    "p95": 728.0,
+    "max": 1204
+  },
+  "visual_token_count_from_pinned_resize": {
+    "min": 64,
+    "median": 234.0,
+    "p95": 525.0,
+    "max": 1247
+  },
+  "nonvisual_sequence_tokens": {
+    "min": 70,
+    "median": 80.0,
+    "p95": 105.05,
+    "max": 127
+  },
+  "prompt_token_count": {
+    "min": 136,
+    "median": 316.0,
+    "p95": 604.0999999999999,
+    "max": 1336
+  }
+}

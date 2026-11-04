@@ -1,0 +1,49 @@
+{
+  "schema": "vlm.eswa_revision_v1.protocol_amendment.v1",
+  "amendment_id": "VLM_ESWA_REVISION_AMENDMENT_003",
+  "protocol_version_from": "v1.2",
+  "protocol_version_to": "v1.3",
+  "stage_detected": "077_pre_GT_rank_metric_audit",
+  "activation_status": "ACTIVE",
+  "reason": "The frozen protocol specified Kendall and rank-overlap metrics but did not specify the Kendall tie variant, deterministic tie-breaking for ranked lists, or the finite-list RBO variant.",
+  "trigger": "pre-GT audit of 077 implementation",
+  "GT_accessed": false,
+  "GT_join_started": false,
+  "scientific_metrics_seen": false,
+  "scientific_metrics_computed": false,
+  "inference_behavior_changed": false,
+  "dataset_changed": false,
+  "model_changed": false,
+  "backend_changed": false,
+  "prompt_changed": false,
+  "prediction_cache_changed": false,
+  "analysis_definition_clarification": true,
+  "old_frozen_config_unchanged": true,
+  "old_artifacts_preserved_read_only": true,
+  "supersedes": "00_protocol/frozen_config_v1_2.json",
+  "effective_rules": {
+    "kendall": "Kendall tau-b (tie-corrected)",
+    "kendall_tau_a": "diagnostic_only",
+    "spearman": "average ranks; no identifier-based tie breaking",
+    "ranked_list_sort": "risk descending; canonical source_row ascending for exact ties",
+    "jaccard_budgets": "ceil(q*n) for q in {0.05, 0.10, 0.20, 0.30}",
+    "rbo_variant": "RBO_EXT",
+    "rbo_p_primary": 0.9,
+    "rbo_p_sensitivity": [
+      0.8,
+      0.95
+    ]
+  },
+  "required_pre_GT_audit": {
+    "risk_tie_counts": true,
+    "boundary_tie_sizes": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "GT_accessed": false,
+    "hashes_used": false
+  },
+  "authorized_action": "CPU-only tie audit and recomputation of 077_noise_floor_v1_3.json from existing canonical predictions.jsonl; no GPU inference and no GT access"
+}
