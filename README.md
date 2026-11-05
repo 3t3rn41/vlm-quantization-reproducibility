@@ -57,4 +57,6 @@ python run_full_gpu_validation.py --workspace PATH_TO_EVALUATION_WORKSPACE --mod
 
 The completed ten-job run checked 27,528 new predictions with zero candidate-probability difference. Its receipt is `validation/full_forward_20261104.json`.
 
-No reuse license has been assigned to this repository yet.
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Copyright (c) 2026 3t3rn41. Benchmark data and model weights are obtained from their original providers under the corresponding terms.
