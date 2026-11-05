@@ -1,3 +1,12 @@
+ARCHIVED HISTORICAL NOTE — 2026-10-02
+
+Superseded by the repository root README for current access, commands, seeds and validation:
+https://github.com/3t3rn41/vlm-quantization-reproducibility/blob/main/README.md
+
+The historical text below records the disclosure status when this package was prepared. Current public materials include the exact random streams, derived caches, inference code and completed validation receipts. Run CPU reconstruction from the repository root with reproduce_cpu.py and the documented modes. Current model and processor revisions are in protocol_current/model_revisions.json; the root README explains the historical InternVL metadata correction.
+
+BEGIN HISTORICAL TEXT
+
 VLM supplementary audit package version 2026-10-02
 
 This is locally prepared submission material, not a published repository. No reuse license has been assigned. It supports verification from paired derived records, not independent rerunning of model inference.

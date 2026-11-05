@@ -2,6 +2,12 @@
 
 Versioned inference and numeric analysis code, pinned model and dataset revisions, random streams, derived risk scores, error indicators, and cached numeric outputs for the BF16, TorchAO INT4, and HQQ INT4 experiment. The archive covers 9,176 paired benchmark inputs across two models and two datasets.
 
+## Revision provenance
+
+Use [`protocol_current/model_revisions.json`](protocol_current/model_revisions.json) for the current model and processor identifiers. The InternVL3-2B-Instruct revision is `f6c7b60375759170fd49f5e9e298e2178485c5ba`. Historical metadata in `084_latency_memory.py` records `f6c7b60375759170fd49f5e9e298e2178485cba5`, a transcription error in the final characters. The [correction record](revise/Analysis_2/Major_2/revision_correction.json) documents the original server snapshot directory and matching official/server configurations as the correction basis. Historical scripts and result records retain their recorded contents.
+
+Two October audit README files preserve the access and seed-disclosure status at their preparation date. Each now has an archival notice directing readers here for current public commands, seed streams and validation records.
+
 ## CPU reproduction
 
 Use Python 3.12 and install `requirements_cpu.txt`. Run from the repository root:
