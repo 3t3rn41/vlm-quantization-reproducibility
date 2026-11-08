@@ -43,11 +43,18 @@ With original full prediction outputs and the external input workspace available
 ```sh
 python verify_formal_prediction_cache.py --original-inference-root PATH_TO_BF16_TORCHAO_OUTPUTS --hqq-root PATH_TO_HQQ_FORMAL_OUTPUTS
 python verify_gpu_smoke.py --hqq-root PATH_TO_NEW_HQQ_OUTPUTS --queue-smoke PATH_TO_50_INPUT_SMOKE_OUTPUT
+```
+
+The Word table checks use the released numerical records and Python's standard library.
+
+```sh
 python verify_manuscript_tables.py --manuscript PATH_TO_REVISED_DOCX
 python verify_supplement_tables.py --supplement PATH_TO_SUPPLEMENT_DOCX
 ```
 
-`verify_formal_prediction_cache.py` checks every saved prediction against the released per-input cache. `verify_gpu_smoke.py` checks HQQ BF16 parity against `validation/bf16_parity_reference.json`. The manuscript and supplement verifiers compare displayed table values with released numeric evidence. The latest validation receipt is `validation/validation_20261104.json`.
+`verify_formal_prediction_cache.py` checks every saved prediction against the released per-input cache. `verify_gpu_smoke.py` checks HQQ BF16 parity against `validation/bf16_parity_reference.json`.
+
+The Word verifiers support the current 11-table clean manuscript and supplementary Tables S1–S15 (26 Word table objects). They also support the archived 7-table manuscript and 29-object supplement recorded in `validation/validation_20261104.json`. The current supplement checks image-group intervals in S6–S8 and the displayed row- and image-group intervals in S9.
 
 To rerun the complete GPU forward pass and compare all predictions with the released per-input caches, use:
 

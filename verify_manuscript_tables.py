@@ -1,4 +1,4 @@
-"""Compare the seven revised manuscript tables with released numeric evidence."""
+"""Compare the current or archived manuscript tables with released numeric evidence."""
 from __future__ import annotations
 
 import argparse
@@ -13,25 +13,48 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "revise/CPU_strengthening_20261103"
+ARCHIVE = ROOT / "manuscript/submission/numeric_audit_20261002"
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 MODEL = {"InternVL": "internvl3_2b", "Qwen": "qwen2_5_vl_7b"}
 NUMBER = re.compile(r"[+\-−]?\d+(?:\.\d+)?")
+ARCHIVED_SHAPES = ((4, 8), (4, 8), (16, 5), (12, 4), (4, 6), (4, 5), (4, 5))
+CURRENT_SHAPES = (
+    (5, 4), (4, 8), (4, 8), (16, 5), (12, 4), (4, 6),
+    (4, 6), (4, 6), (4, 5), (8, 4), (4, 5),
+)
 
 
-def table_rows(docx: Path, expected: int = 7) -> list[list[list[str]]]:
+def cell_text(cell: ET.Element) -> str:
+    parts = []
+    for paragraph in cell.iter(W + "p"):
+        for node in paragraph.iter():
+            if node.tag == W + "t":
+                parts.append(node.text or "")
+            elif node.tag in (W + "br", W + "cr", W + "tab"):
+                parts.append("\n")
+        parts.append("\n")
+    return "".join(parts).strip()
+
+
+def table_rows(docx: Path) -> list[list[list[str]]]:
     with ZipFile(docx) as archive:
         root = ET.fromstring(archive.read("word/document.xml"))
     tables = []
     for table in root.iter(W + "tbl"):
         rows = []
         for row in table.findall(W + "tr"):
-            cells = []
-            for cell in row.findall(W + "tc"):
-                cells.append("".join(node.text or "" for node in cell.iter(W + "t")).strip())
-            rows.append(cells)
+            rows.append([cell_text(cell) for cell in row.findall(W + "tc")])
         tables.append(rows)
-    assert len(tables) == expected, len(tables)
     return tables
+
+
+def check_table_shape(table: list[list[str]], data_rows: int, columns: int, context: str) -> None:
+    if len(table) != data_rows + 1 or any(len(row) != columns for row in table):
+        raise ValueError(f"{context}: expected {data_rows} data rows and {columns} columns")
+
+
+def compact(value: str) -> str:
+    return "".join(value.split())
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -47,12 +70,15 @@ def check(display: str, actual: float, context: str) -> None:
     token = display.replace("−", "-").replace("+", "")
     places = len(token.partition(".")[2]) if "." in token else 0
     tolerance = 0.5 * 10 ** (-places) + 1e-7
-    assert abs(float(token) - actual) <= tolerance, (context, display, actual)
+    within_rounding = abs(float(token) - actual) <= tolerance
+    if not within_rounding:
+        raise AssertionError((context, display, actual))
 
 
 def check_cell(display: str, actual: list[float], context: str) -> int:
     found = numbers(display)
-    assert len(found) == len(actual), (context, display, actual)
+    if len(found) != len(actual):
+        raise AssertionError((context, display, actual))
     for index, (text, value) in enumerate(zip(found, actual)):
         check(text, value, f"{context}[{index}]")
     return len(found)
@@ -68,17 +94,77 @@ def indexed(path: Path, keys: tuple[str, ...]) -> dict[tuple[str, ...], dict[str
     return {tuple(row[key] for key in keys): row for row in read_csv(path)}
 
 
+def interval(record: dict[str, str], scale: int = 1) -> list[float]:
+    return [scale * float(record[key]) for key in ("point", "ci95_low", "ci95_high")]
+
+
+def queue_exchange(path: Path) -> tuple[int, int, int, int]:
+    cache = read_csv(path)
+    k = math.ceil(0.2 * len(cache))
+
+    def queue(prefix: str) -> set[int]:
+        key = prefix + "_risk_max"
+        ordered = sorted(range(len(cache)), key=lambda i: (-float(cache[i][key]), int(cache[i]["source_row"])))
+        return set(ordered[:k])
+
+    bf16, quantized = queue("bf16"), queue("int4")
+    removed, added = bf16 - quantized, quantized - bf16
+    entering = sum(int(cache[i]["int4_error"]) for i in added)
+    exiting = sum(int(cache[i]["int4_error"]) for i in removed)
+    return k, len(removed), entering, exiting
+
+
+def check_recall_rows(table: list[list[str]], matrices: dict) -> int:
+    checked = 0
+    for row in table[1:]:
+        cell = cell_id(row[0])
+        bf16 = matrices[(cell, "max", "0.2", "BF16", "TorchAO")]
+        torchao = matrices[(cell, "max", "0.2", "TorchAO", "TorchAO")]
+        checked += check_cell(row[1], [float(torchao["total_errors"])], cell + " errors")
+        for display, record in ((row[2], bf16), (row[3], torchao)):
+            values = [float(record["captured_errors_point"]), 100 * float(record["error_recall_point"])]
+            checked += check_cell(display, values, cell + " capture")
+        checked += check_cell(row[4], [100 * float(torchao["random_recall"])], cell + " random")
+        checked += check_cell(row[5], [100 * float(torchao["oracle_recall"])], cell + " oracle")
+    return checked
+
+
+def check_count_interactions(table: list[list[str]], interactions: dict) -> int:
+    checked = 0
+    for row in table[1:]:
+        cell = cell_id(row[0])
+        contrast = {"Policy": "policy_interaction", "Target": "target_interaction"}[row[1]]
+        record = interactions[(cell, contrast, "errors")]
+        checked += check_cell(row[2], interval(record), cell + contrast)
+        adjusted = [float(record[key]) for key in ("point", "bonferroni_low", "bonferroni_high")]
+        checked += check_cell(row[3], adjusted, cell + contrast + " adjusted")
+    return checked
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manuscript", type=Path, required=True)
     args = parser.parse_args()
     tables = table_rows(args.manuscript)
+    current = len(tables) == len(CURRENT_SHAPES)
+    shapes = CURRENT_SHAPES if current else ARCHIVED_SHAPES
+    if len(tables) != len(shapes):
+        raise ValueError(f"Unsupported manuscript layout: found {len(tables)} tables, expected 11 or 7")
+    for index, (table, (rows, columns)) in enumerate(zip(tables, shapes), 1):
+        check_table_shape(table, rows, columns, f"Main Table {index}")
+    if current:
+        study, accuracy, exchange, budgets, signals, recall, hqq, hqq_exchange, exposure, counts, rates = tables
+        if any(not cell for row in study[1:] for cell in row):
+            raise ValueError("Main Table 1: incomplete qualitative comparison")
+    else:
+        accuracy, exchange, budgets, signals, hqq, exposure, rates = tables
+
     endpoints = indexed(DATA / "complete_image_group_endpoints.csv", ("backend", "cell", "metric"))
     sources = read_csv(DATA / "risk_source_contrasts_complete.csv")
     matrices = indexed(DATA / "cross_matrices_complete.csv", ("cell", "signal", "q", "risk_source", "error_target"))
     backend = indexed(DATA / "backend_contrasts_complete.csv", ("cell", "signal", "q", "policy"))
     interactions = indexed(DATA / "interaction_results.csv", ("cell", "contrast", "unit"))
-    historical_rows = read_csv(ROOT / "manuscript/submission/numeric_audit_20261002/manuscript_Table_4.csv")
+    historical_rows = read_csv(ARCHIVE / "manuscript_Table_4.csv")
     assert len(historical_rows) == 4
     historical_intervals = {cell_id(row["Cell"].replace("\n", "")): numbers(list(row.values())[6])[1:3] for row in historical_rows}
     checked = 0
@@ -92,26 +178,29 @@ def main() -> None:
         assert len(found) == 1, (cell, signal, q, target, a, b)
         return found[0]
 
-    for row in tables[0][1:]:
+    for row in accuracy[1:]:
         cell = cell_id(row[0])
         checked += check_cell(row[1], [float(endpoint("TorchAO", cell, "bf16_accuracy")["n"])], cell)
-        for display, metric in zip(row[2:], ("bf16_accuracy", "int4_accuracy", "delta_accuracy", "flip", "spearman", "jaccard_0.20")):
-            checked += check_cell(display, [float(endpoint("TorchAO", cell, metric)["point"])], cell + metric)
+        metrics = ("bf16_accuracy", "int4_accuracy", "delta_accuracy", "flip", "spearman", "jaccard_0.20")
+        for display, metric in zip(row[2:], metrics):
+            record = endpoint("TorchAO", cell, metric)
+            values = [float(record["point"])]
+            if current and metric in ("delta_accuracy", "spearman", "jaccard_0.20"):
+                values = interval(record)
+            checked += check_cell(display, values, cell + metric)
 
-    for row in tables[1][1:]:
+    for row in exchange[1:]:
         cell = cell_id(row[0])
-        cache = read_csv(ROOT / "manuscript/submission/numeric_audit_20261002" / f"{cell}_derived.csv")
-        n = len(cache)
-        k = math.ceil(0.2 * n)
-        ordered = [set(sorted(range(n), key=lambda i: (-float(cache[i][prefix + "_risk_max"]), int(cache[i]["source_row"])))[:k]) for prefix in ("bf16", "int4")]
-        removed, added = ordered[0] - ordered[1], ordered[1] - ordered[0]
-        m = len(removed)
-        exit_errors = sum(int(cache[i]["int4_error"]) for i in removed)
-        entry_errors = sum(int(cache[i]["int4_error"]) for i in added)
+        k, m, entry_errors, exit_errors = queue_exchange(ARCHIVE / f"{cell}_derived.csv")
         checked += check_cell(row[1], [float(endpoint("TorchAO", cell, "jaccard_0.20")["point"])], cell + " J20")
-        assert row[2].replace(" ", "") == f"{m}/{k}{m/k:.4f}", (cell, "exchange")
-        assert row[3].replace(" ", "") == f"{exit_errors}/{m}{exit_errors/m:.4f}", (cell, "exit")
-        assert row[4].replace(" ", "") == f"{entry_errors}/{m}{entry_errors/m:.4f}", (cell, "entry")
+        if current:
+            checked += check_cell(row[2], [m, k, m / k], cell + " exchange")
+            checked += check_cell(row[3], [exit_errors, m, exit_errors / m], cell + " exit")
+            checked += check_cell(row[4], [entry_errors, m, entry_errors / m], cell + " entry")
+        else:
+            assert compact(row[2]) == f"{m}/{k}{m/k:.4f}", (cell, "exchange")
+            assert compact(row[3]) == f"{exit_errors}/{m}{exit_errors/m:.4f}", (cell, "exit")
+            assert compact(row[4]) == f"{entry_errors}/{m}{entry_errors/m:.4f}", (cell, "entry")
         checked += check_cell(row[5], [entry_errors/m - exit_errors/m], cell + " Q")
         image = endpoint("TorchAO", cell, "yield_0.20")
         row_ci = historical_intervals[cell]
@@ -122,31 +211,45 @@ def main() -> None:
         try:
             checked += check_cell(" ".join(displayed_yield[1:3]), [float(v) for v in row_ci], cell + " archived row interval")
         except AssertionError:
-            issues.append({"cell": cell, "table": 2, "field": "row interval", "manuscript": displayed_yield[1:3], "cached_reconstruction": row_ci})
+            issues.append({"cell": cell, "table": 3 if current else 2, "field": "row interval", "manuscript": displayed_yield[1:3], "cached_reconstruction": row_ci})
         checked += check_cell(row[7], [entry_errors - exit_errors], cell + " net")
 
-    for row in tables[2][1:]:
-        cell = cell_id(row[0]);q = float(row[1]) / 100
+    for row in budgets[1:]:
+        cell = cell_id(row[0])
+        q = float(row[1]) / 100
         contrast = source(cell, "max", str(q), "TorchAO", "TorchAO", "BF16")
         matrix = matrices[(cell, "max", str(q), "BF16", "TorchAO")]
         checked += check_cell(row[2], [float(matrix["k"])], cell + " k")
         checked += check_cell(row[3], [float(contrast[k]) for k in ("delta_captured_errors_point", "delta_captured_errors_ci95_low", "delta_captured_errors_ci95_high")], cell + " net")
         checked += check_cell(row[4], [float(contrast[k]) for k in ("delta_yield_per100_point", "delta_yield_per100_ci95_low", "delta_yield_per100_ci95_high")], cell + " yield")
 
-    for row in tables[3][1:]:
-        cell = cell_id(row[0]);signal = row[1]
+    for row in signals[1:]:
+        cell = cell_id(row[0])
+        signal = row[1]
         contrast = source(cell, signal, "0.2", "TorchAO", "TorchAO", "BF16")
         checked += check_cell(row[2], [float(contrast["delta_captured_errors_point"])], cell + signal + " net")
         checked += check_cell(row[3], [float(contrast[k]) for k in ("delta_yield_per100_point", "delta_yield_per100_ci95_low", "delta_yield_per100_ci95_high")], cell + signal + " yield")
 
-    for row in tables[4][1:]:
+    accuracy_scale = 1 if current else 100
+    for row in hqq[1:]:
         cell = cell_id(row[0])
-        for display, metric, scale in ((row[1], "delta_accuracy", 100), (row[2], "spearman", 1), (row[3], "jaccard_0.20", 1), (row[5], "yield_0.20", 1)):
+        for display, metric, scale in ((row[1], "delta_accuracy", accuracy_scale), (row[2], "spearman", 1), (row[3], "jaccard_0.20", 1), (row[5], "yield_0.20", 1)):
             record = endpoint("HQQ", cell, metric)
-            checked += check_cell(display, [scale * float(record[k]) for k in ("point", "ci95_low", "ci95_high")], cell + metric)
+            checked += check_cell(display, interval(record, scale), cell + metric)
         checked += check_cell(row[4], [float(endpoint("HQQ", cell, "net_0.20")["point"])], cell + " HQQ net")
 
-    for row in tables[5][1:]:
+    if current:
+        checked += check_recall_rows(recall, matrices)
+        hqq_cache = ROOT / "revise/Analysis_2/Major_2/derived_audit"
+        for row in hqq_exchange[1:]:
+            cell = cell_id(row[0])
+            k, m, entering, exiting = queue_exchange(hqq_cache / f"{cell}_derived.csv")
+            expected = (k, m, entering, exiting, entering - exiting)
+            for column, value in enumerate(expected, 1):
+                checked += check_cell(row[column], [value], f"Main Table 8 {cell} column {column + 1}")
+        checked += check_count_interactions(counts, interactions)
+
+    for row in exposure[1:]:
         cell = cell_id(row[0])
         for display, target in ((row[1], "TorchAO"), (row[2], "HQQ")):
             record = matrices[(cell, "max", "0.2", target, target)]
@@ -155,14 +258,16 @@ def main() -> None:
             record = backend[(cell, "max", "0.2", policy)]
             checked += check_cell(display, [float(record[k]) for k in ("delta_unreviewed_errors_point", "delta_unreviewed_errors_ci95_low", "delta_unreviewed_errors_ci95_high")], cell + policy)
 
-    for row in tables[6][1:]:
+    for row in rates[1:]:
         cell = cell_id(row[0])
         for display, contrast, adjusted in ((row[1], "policy_interaction", False), (row[2], "policy_interaction", True), (row[3], "target_interaction", False), (row[4], "target_interaction", True)):
             record = interactions[(cell, contrast, "per1000")]
             bounds = ("bonferroni_low", "bonferroni_high") if adjusted else ("ci95_low", "ci95_high")
             checked += check_cell(display, [float(record["point"]), *(float(record[k]) for k in bounds)], cell + contrast)
 
-    result = {"status": "PASS" if not issues else "MISMATCH", "tables": 7, "data_rows": sum(len(table) - 1 for table in tables), "numeric_values_checked": checked, "issues": issues}
+    result = {"status": "PASS" if not issues else "MISMATCH", "tables": len(tables), "data_rows": sum(len(table) - 1 for table in tables), "numeric_values_checked": checked, "issues": issues}
+    if current:
+        result["qualitative_table"] = 1
     print(json.dumps(result, ensure_ascii=False))
     if issues:
         raise SystemExit(1)
